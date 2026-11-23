@@ -1,0 +1,33 @@
+{
+  "architecture": "crossing_context_64",
+  "preprocessing": {
+    "input_size": [
+      16,
+      16
+    ],
+    "intermediate_size": [
+      64,
+      64
+    ],
+    "crop_top_ratio": 0.25,
+    "white_threshold": 127,
+    "mode": "binary",
+    "paired_context64": true
+  },
+  "context_input_size": [
+    64,
+    64
+  ],
+  "context_policy": {
+    "enabled": true,
+    "activate_probability": 0.9446295628547668,
+    "keep_probability": 0.9,
+    "clear_seconds": 1.5
+  },
+  "settings": {
+    "stop_enabled": false,
+    "drive_speed_multiplier": 1.5,
+    "inference_interval_seconds": 0.08
+  },
+  "fpga_export_implemented": false
+}

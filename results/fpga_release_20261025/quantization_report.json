@@ -1,0 +1,127 @@
+{
+  "groups": {
+    "historical_test": {
+      "images": 2406,
+      "raw_class_matches": 2406,
+      "final_class_matches": 2406,
+      "activate_matches": 2406,
+      "keep_matches": 2406,
+      "max_context_logit_error": 0.04155731201171875,
+      "float_accuracy": 0.8541147132169576,
+      "integer_accuracy": 0.8541147132169576
+    },
+    "augmented_context_test": {
+      "images": 560,
+      "raw_class_matches": 560,
+      "final_class_matches": 560,
+      "activate_matches": 560,
+      "keep_matches": 560,
+      "max_context_logit_error": 0.019279003143310547
+    },
+    "fresh_context_test": {
+      "images": 560,
+      "raw_class_matches": 560,
+      "final_class_matches": 560,
+      "activate_matches": 560,
+      "keep_matches": 560,
+      "max_context_logit_error": 0.015422523021697998
+    },
+    "normal_route_replay": {
+      "images": 990,
+      "raw_class_matches": 989,
+      "final_class_matches": 990,
+      "activate_matches": 990,
+      "keep_matches": 990,
+      "max_context_logit_error": 0.01952362060546875
+    },
+    "actual_controller_jpeg_replay": {
+      "images": 53,
+      "raw_class_matches": 53,
+      "final_class_matches": 53,
+      "activate_matches": 53,
+      "keep_matches": 53,
+      "max_context_logit_error": 0.01734447479248047
+    }
+  },
+  "statistics": {
+    "legacy_conv1_mac_abs_max": 239269334,
+    "legacy_conv1_abs_max_before_clip": 14605,
+    "legacy_conv1_saturated": 0,
+    "legacy_conv2_mac_abs_max": 960162618,
+    "legacy_conv2_abs_max_before_clip": 28617,
+    "legacy_conv2_saturated": 0,
+    "fc1_mac_abs_max": 948326821,
+    "fc1_abs_max_before_clip": 16471,
+    "fc1_saturated": 0,
+    "fc2_mac_abs_max": 238594648,
+    "fc2_abs_max_before_clip": 29138,
+    "fc2_saturated": 0,
+    "context_conv1_mac_abs_max": 202024210,
+    "context_conv1_abs_max_before_clip": 12332,
+    "context_conv1_saturated": 0,
+    "context_conv2_mac_abs_max": 830568779,
+    "context_conv2_abs_max_before_clip": 24662,
+    "context_conv2_saturated": 0,
+    "context_head_mac_abs_max": 986942850,
+    "context_head_abs_max_before_clip": 120785,
+    "context_head_saturated": 0
+  },
+  "saturation": {
+    "legacy_conv1_saturated": 0,
+    "legacy_conv2_saturated": 0,
+    "fc1_saturated": 0,
+    "fc2_saturated": 0,
+    "context_conv1_saturated": 0,
+    "context_conv2_saturated": 0,
+    "context_head_saturated": 0
+  },
+  "vectors": [
+    {
+      "name": "class_stop",
+      "path": "vectors\\class_stop",
+      "source": "C:\\AICAR\\main_classified_images\\crossroads\\data_c_1 (10).jpg"
+    },
+    {
+      "name": "class_left",
+      "path": "vectors\\class_left",
+      "source": "C:\\AICAR\\main_classified_images\\gentle_left\\datal1 (105).jpg"
+    },
+    {
+      "name": "class_right",
+      "path": "vectors\\class_right",
+      "source": "C:\\AICAR\\main_classified_images\\gentle_right\\datar1 (1013).jpg"
+    },
+    {
+      "name": "class_sharp_left",
+      "path": "vectors\\class_sharp_left",
+      "source": "C:\\AICAR\\main_classified_images\\sharp_left\\datasl1 (1004).jpg"
+    },
+    {
+      "name": "class_sharp_right",
+      "path": "vectors\\class_sharp_right",
+      "source": "C:\\AICAR\\main_classified_images\\sharp_right\\datasr2 (10006).jpg"
+    },
+    {
+      "name": "class_straight",
+      "path": "vectors\\class_straight",
+      "source": "C:\\AICAR\\main_classified_images\\straight\\datast1 (102).jpg"
+    },
+    {
+      "name": "crossing_activate",
+      "path": "vectors\\crossing_activate",
+      "source": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\augmented_context_test\\candidate\\eastbound_o+00_h+00\\0001_stop.png"
+    },
+    {
+      "name": "context_clear",
+      "path": "vectors\\context_clear",
+      "source": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\dense_teacher_route\\teacher\\original_start\\0002_stop.png"
+    }
+  ],
+  "input_count": 4569,
+  "status": "numerical_comparison_complete",
+  "limitations": [
+    "All saved images are replayed, not new closed-loop integer-model driving.",
+    "JPEG runtime snapshots differ from native camera bytes and are labelled replay only.",
+    "No camera preprocessing RTL, CDC, UART physical interface, pin assignment or board bitstream in this release."
+  ]
+}

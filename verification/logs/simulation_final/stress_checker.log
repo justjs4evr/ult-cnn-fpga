@@ -1,0 +1,3 @@
+PASS vector=vectors/stress_checker frame=0 cycles=632216 raw=1 class=5 context=26085
+PASS vector=vectors/stress_checker frame=1 cycles=632216 raw=1 class=5 context=26085
+C:\AICAR\ULT_CNN\fpga_release_20261025\rtl\core_tb.sv:61: $finish called at 12733790000 (1ps)

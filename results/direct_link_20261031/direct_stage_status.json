@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-31",
+  "user_confirmed_scene_label": "straight",
+  "existing_float_and_FPGA_both_misclassify": true,
+  "existing_model_changed": false,
+  "new_training_performed": false,
+  "calibration_scene_groups": 1,
+  "calibration_frames": 5,
+  "camera_steering_accuracy_verified": false,
+  "FPGA_build": {
+    "top": "cnn_direct_board",
+    "device": "GW2AR-LV18QN88C8/I7",
+    "core_clock_mhz": 20,
+    "routed_fmax_mhz": 21.837,
+    "setup_violated_endpoints": 0,
+    "hold_violated_endpoints": 0,
+    "resources": {
+      "Logic": "2970/20736",
+      "Register": "962/15750",
+      "BSRAM": "44/46"
+    },
+    "routed_timing_passed": true,
+    "bitstream": "C:\\AICAR\\ULT_CNN\\direct_link_20261031\\bitstreams\\cnn_direct_board.fs",
+    "bitstream_sha256": "65150b3cf6f58d8474c640959b46e0c9432ae4f189e427e9e2f2fe74660663f3",
+    "source_hashes": {
+      "build.tcl": "dc9498b38baf7a8f7d9c0945539c4c78f6b00c464dc5fa384a0767f3842df160",
+      "constraints\\board.cst": "99a162cb1000b6647c99f0cebe7b6d958e7e800a74c9f6159dd000afdb77a6c0",
+      "constraints\\board.sdc": "98afc50309742c7108be476ac63dc1605545690c65615a7c1c4f421c37d08ce4",
+      "rtl\\board_reset.v": "73bc4d2c4c53a7280781bc466d52250ee3d4979b4fda719cdf27899fb4bc4b1e",
+      "rtl\\clock_20m.v": "23840d00fdb86d1695fc28818f4f890d195571da9fd052a7e176ee7489e4d391",
+      "rtl\\cnn_direct_board.sv": "e792dd5bafb60827a201caf6af17679177b277698681bf9d0ce3dd609ad3469d",
+      "rtl\\cnn_stream_engine.sv": "bbd13bcd1730512c092babba09d58e9508eb0512867bcb89896b9b615a90ea1a",
+      "rtl\\cnn_uart_board.sv": "2a0822198dc85f8d38bbf019d038501b9b0435b097e57051200e204bd05e660d",
+      "rtl\\image_frame_rx.sv": "8ba4093e5026f4bdc22567a10b99e0c76db58d3148a842b85660927d24f91bb4",
+      "rtl\\quant_config.vh": "613117c8a4b66e462f24b4ba91b441b0a7f26c7275299b9fbb59c92672e2950a",
+      "rtl\\result_packet_tx.sv": "d6cfda02ca0d6bf2ce8582491979be232c10562d87b114a0d65892d88b646d7d",
+      "rtl\\stream_tb.sv": "2f8f73a707e46620c09c224811bf80430d311b984b0c7f038645cc9af4bdb2d9",
+      "rtl\\uart_8n1.sv": "e43a447cbb41bc4310d37bee7e4d87b4f18f6be05261bd0c8329524c92778c0d",
+      "rtl\\uart_link_test.sv": "77a3433164f647018392268aea7397ddc9bac6f26e32cb2ef3b80c7b8d1e8cd5",
+      "rtl\\ult_context_core.sv": "cdd615a5a7f0059d29589c5b7c3d558b075c85bb4bc8f1d53ed1650e43089627",
+      "weights\\context_b.hex": "34b2eb3c9b54ceddeee4331899dea3cd10fe484d9bbddb1dbc8412cfe20a045c",
+      "weights\\context_w.hex": "f4c7e2d4582c92d986c7bb03bbc1f778fe8f7375a6687ab68690c93e12aa3e3b",
+      "weights\\conv1_b.hex": "d2b585cf00de7ff1feb37aa9611559868ce10f9e91ce9c0b953fb90dbdf6f3f2",
+      "weights\\conv1_w.hex": "52f75d848751fe3b35e9f87d59af2123f08ca1c03f18691dbf393491d224a53a",
+      "weights\\conv2_b.hex": "58bfc445e2c1ba4110671bb9fa4fddc40c0a7adbe71a80f357cc9298905bb6b0",
+      "weights\\conv2_w.hex": "45c8ecca54264965435215af609f9689aa9db6050f48573be37df37a33fc6a07",
+      "weights\\fc1_b.hex": "dc9c03ba28becb8049ae5e367feef82bbe48dca50e1905624fa508f30f4dc097",
+      "weights\\fc1_w.hex": "0db80d6534b896146858a45b91cc791d0539ff5700897352c5fe949b53678bdd",
+      "weights\\fc2_b.hex": "0579fad44553665635eb93b6d79d41a2251ed4bdc225290832151405fc1331b2",
+      "weights\\fc2_w.hex": "ad972120499ab2ff7044b28e2d703e104fe966e040f59c9bf438ce764bf90ae6"
+    },
+    "security_bit_enabled": false,
+    "board_execution_verified": true,
+    "warnings": [
+      "PR1014: input clock to PLL uses generic routing; same clock circuit passed prior board test.",
+      "UART RX is asynchronous and uses a two-FF synchronizer. No camera input is implemented."
+    ]
+  },
+  "audit_protocol": {
+    "status": "passed",
+    "packet_bytes": 23640,
+    "fragmented_and_text_prefixed": true,
+    "CRC_error_rejected": true,
+    "physical_link_verified": false
+  },
+  "direct_physical_test_passed": true,
+  "direct_frames": 5,
+  "autonomous_observed_frames": 15,
+  "flash": {
+    "timestamp_utc": "20261031T012330Z",
+    "operation": 37,
+    "programming_and_readback_passed": true,
+    "bitstream_sha256": "65150b3cf6f58d8474c640959b46e0c9432ae4f189e427e9e2f2fe74660663f3",
+    "test_report": "C:\\AICAR\\ULT_CNN\\direct_link_20261031\\runs\\20261031_102155_709187\\report.json",
+    "power_cycle_verified": true,
+    "log": "direct_flash_20261031T012306Z.log",
+    "power_cycle_evidence": "user cycled both power supplies, then observe read FPGA only; no start command or pixel transmission"
+  },
+  "MCU": {
+    "status": "uploaded",
+    "port": "COM3",
+    "fqbn": "esp32:esp32:XIAO_ESP32S3:PSRAM=opi,USBMode=hwcdc,CDCOnBoot=default,PartitionScheme=default_8MB",
+    "app_sha256": "a6c92603880505936fd997ec4855964c08a28203b54354336d174622fcb9db78",
+    "original_flash_backup": "C:\\AICAR\\ULT_CNN\\xiao_camera_test_20261031\\backup\\original_flash_COM3_20261031_094448.bin",
+    "direct_link_tested": false
+  },
+  "automatic_start_saved": true,
+  "power_cycle_verified": true,
+  "direct_UART_round_trip_us": {
+    "min": 128309,
+    "max": 129119,
+    "mean": 128723.2
+  },
+  "model_semantic_error_resolved": false,
+  "motors_driven": false,
+  "user_reported_cause": "Vehicle camera mounting angle; user will adjust the physical camera.",
+  "next_step": "Recheck the same centered straight scene after physical camera angle adjustment; defer retraining until this check.",
+  "camera_angle_adjustment_retested": false,
+  "wiring": {
+    "XIAO_D6_GPIO43_TX": "Tang_73_J6_1_RX",
+    "XIAO_D7_GPIO44_RX": "Tang_74_J6_2_TX",
+    "GND": "GND"
+  },
+  "port_voltage": "3.3V UART 460800 8N1; separate USB power supplies",
+  "model_sha256": "39eac826632a58d950e42ebe957884fec1a8313f7eb1873c95831eff1e62d609"
+}

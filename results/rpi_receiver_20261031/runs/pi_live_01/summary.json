@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "error": null,
+  "platform": "Linux-6.18.34+rpt-rpi-v8-aarch64-with-glibc2.41",
+  "python": "3.13.5",
+  "port": "/dev/serial/by-id/usb-SIPEED_USB_Debugger_2025030317-if01-port0",
+  "baud": 460800,
+  "stale_seconds": 0.75,
+  "valid_frames": 95,
+  "startup_drain_seconds": 2,
+  "startup_discarded_frames": 6,
+  "startup_crc_errors": 0,
+  "rejected_frames": 0,
+  "crc_errors": 0,
+  "elapsed_seconds": 32.13049900200002,
+  "serial_bytes_transmitted": 0,
+  "image_bytes_forwarded": 0,
+  "motors_driven": false,
+  "pi_execution_verified": true,
+  "camera_angle_adjustment_verified": false,
+  "semantic_accuracy_verified": false,
+  "policy": "Original context hysteresis + straight passage; STOP means slowdown",
+  "receive_interval_seconds": {
+    "min": 0.3145809630000258,
+    "max": 0.31595511699998724,
+    "mean": 0.31515005724468076
+  },
+  "note": "Receive intervals include USB/host buffering; not camera FPS or absolute image age."
+}

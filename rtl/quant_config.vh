@@ -1,0 +1,13 @@
+`define ACT_FRAC 11
+`define CONTEXT_ACTIVATE_Q 5810
+`define CONTEXT_KEEP_Q 4500
+`define CONV1_W_FRAC 14
+`define CONV2_W_FRAC 14
+`define FC1_W_FRAC 13
+`define FC2_W_FRAC 14
+`define CONTEXT_W_FRAC 14
+`define CONV1_SHIFT 14
+`define CONV2_SHIFT 15
+`define FC1_SHIFT 15
+`define FC2_SHIFT 13
+`define CONTEXT_SHIFT 13

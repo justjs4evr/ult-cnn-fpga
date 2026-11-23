@@ -1,0 +1,17 @@
+{
+  "protocol": "ULTDRV1",
+  "cruise_pwm": 45,
+  "slow_pwm": 40,
+  "turn_pwm": 105,
+  "gentle_turn_pwm": 105,
+  "sharp_turn_pwm": 120,
+  "slow_gentle_turn_pwm": 90,
+  "slow_sharp_turn_pwm": 90,
+  "gentle_inner_percent": 33,
+  "sharp_inner_percent": 20,
+  "calibration_verified": false,
+  "lifted_wheel_mapping_verified": true,
+  "lifted_start_observed_at_pwm": 40,
+  "ground_load_test_verified": false,
+  "note": "Supervised candidate: straight45/45; slow straight40/40; normal turns105/34 and120/24; slow turns90/29 and90/18. Slow-turn outputs were tested as short standalone ground pulses, but sustained crossing behavior and actual speed reduction remain unverified."
+}

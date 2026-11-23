@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-31",
+  "board": "Arduino UNO compatible ATmega328P",
+  "firmware": "ULTDRV1 + W4 + HC-SR04 obstacle guard",
+  "ultrasonic": {
+    "sensor": "HC-SR04",
+    "vehicle_port": 9,
+    "trig_pin": "D11",
+    "echo_pin": "D12",
+    "stop_distance_cm": 5,
+    "clear_distance_cm": 7,
+    "rearm_required_after_stop": true,
+    "sensor_diagnostic": {
+      "D11_trigger_D12_echo_us": 22590,
+      "D12_trigger_D11_echo_us": 0,
+      "interpretation": "D11/D12 is the connected vehicle wiring; 22.6 ms is the no-close-object/far echo result."
+    }
+  },
+  "flash": {
+    "bytes_verified": 11862,
+    "source_sha256": "AE3127A328BBED4F999B5DA3C671744C01402D623051C4FA34F6EC249523AB11",
+    "drive_core_sha256": "3D9BA1B60058BF2F217C95174C7B0A991EB6C4E48071EE42F090A7EFA0A9E920",
+    "hex_sha256": "0DD9D424B4E0D1DD9A18F26813FB2A8681CECE413842E7D865A0EB42543BC0ED",
+    "flash_readback_verified": true
+  },
+  "ground_obstacle_stop_observation": {
+    "status": "passed",
+    "motor_power_expected_off": true,
+    "obstacle_arm_rejected": true,
+    "positive_drive_sent": false,
+    "STOP_ACK_verified": true,
+    "evidence": "ultrasonic_guard_verification.json"
+  }
+}

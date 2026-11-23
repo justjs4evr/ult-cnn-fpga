@@ -1,0 +1,13 @@
+{
+  "protocol": "ULTDRV1",
+  "cruise_pwm": 45,
+  "slow_pwm": 40,
+  "turn_pwm": 75,
+  "gentle_inner_percent": 33,
+  "sharp_inner_percent": 20,
+  "calibration_verified": false,
+  "lifted_wheel_mapping_verified": true,
+  "lifted_start_observed_at_pwm": 40,
+  "ground_load_test_verified": false,
+  "note": "Ground supervised checks: straight45/45 is slower than 50/50, gentle75/25 is sufficient, sharp75/15 is stronger; sharp75/5 stalled the inner wheel and is rejected. Calibration flags remain false; no RPM or full-course validation."
+}

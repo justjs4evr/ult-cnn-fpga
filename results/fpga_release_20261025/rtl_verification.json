@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "vectors": 13,
+  "frames": 26,
+  "checked": "Every conv/pool/dense tensor, context logit, both classes, threshold flags; repeated frames with input-valid stalls.",
+  "rtl_sha256": "cdd615a5a7f0059d29589c5b7c3d558b075c85bb4bc8f1d53ed1650e43089627",
+  "quant_config_sha256": "613117c8a4b66e462f24b4ba91b441b0a7f26c7275299b9fbb59c92672e2950a",
+  "results": [
+    {
+      "vector": "class_stop",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "class_left",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "class_right",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "class_sharp_left",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "class_sharp_right",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "class_straight",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "crossing_activate",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "context_clear",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "stress_zero",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "stress_white",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "stress_checker",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "stress_random",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    },
+    {
+      "vector": "stress_border",
+      "frames": 2,
+      "cycles": 632216,
+      "passed": true
+    }
+  ],
+  "limitations": "RTL simulation only; not synthesis, timing closure or physical camera/board validation."
+}

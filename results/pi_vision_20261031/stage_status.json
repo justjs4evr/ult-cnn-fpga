@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-31",
+  "stage": "two_camera_observation_and_decision_preview",
+  "live_camera_A_yolo_inference_verified": true,
+  "simultaneous_FPGA_receive_verified": true,
+  "positive_reference_image_detection_verified": true,
+  "vehicle_mission_accuracy_verified": false,
+  "camera_angle_retest_deferred_by_user": true,
+  "motors_driven": false,
+  "motor_port_opened": false,
+  "motor_mapping_verified": false,
+  "power_condition_acceptable": false,
+  "performance_verified_with_good_power": false,
+  "initial_power_source_user_report": "battery or vehicle supply",
+  "user_reported_power_source_replaced": true,
+  "latest_run": {
+    "status": "passed",
+    "observation_seconds": 30.0,
+    "lane": {
+      "status": "completed",
+      "frames": 89,
+      "crc_errors": 0,
+      "rejected_frames": 0,
+      "startup_frames": 6,
+      "startup_crc_errors": 0
+    },
+    "vision_frames_completed": 12,
+    "vision_results_observed": 11,
+    "simultaneous_fresh_observations": 100,
+    "yolo_latency_ms": {
+      "min": 1939.504818000003,
+      "max": 2299.2675199999867,
+      "mean": 2042.6914098333336
+    },
+    "worker_forced_termination": false,
+    "worker_problem": null,
+    "motors_driven": false,
+    "motor_serial_port_opened": false,
+    "vehicle_mission_accuracy_verified": false,
+    "camera_B_angle_retest_deferred_by_user": true,
+    "yolo_model": "official COCO YOLOv5n v7.0 ONNX640",
+    "opencv_threads": 3,
+    "power_before": {
+      "raw": "throttled=0x50000",
+      "undervoltage_now": false,
+      "throttled_now": false,
+      "current_flags_clear": true
+    },
+    "power_after": {
+      "raw": "throttled=0x50005",
+      "undervoltage_now": true,
+      "throttled_now": true,
+      "current_flags_clear": false
+    },
+    "source_A": "OV5647 CSI camera on Raspberry Pi",
+    "source_B": "OV3660 -> XIAO -> Tang CNN -> USB",
+    "policy": "Observation/preview only; no mission rules or motor adapter configured"
+  },
+  "latest_run_folder": "joint_after_cable",
+  "cable_replaced_by_user": true,
+  "replacement_supply_user_report": "5V 3A directly into Raspberry Pi Micro-USB",
+  "replacement_supply_nominal_rating_sufficient": true,
+  "cable_or_actual_supply_output_still_to_be_checked": true,
+  "external_USB_power_isolation": {
+    "condition": "CSI camera + YOLO; external Tang/vehicle USB physically unplugged per user confirmation",
+    "external_boards_physically_disconnected_user_confirmed": true,
+    "connected_USB_serial_devices": [],
+    "child_exit_code": 0,
+    "current_flags_clear_in_all_samples": false,
+    "samples": [
+      {
+        "elapsed_seconds": 0.0031284630000527613,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 1.0103116430000227,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 2.0164104699999825,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 3.0220357840000815,
+        "raw": "throttled=0x50000",
+        "undervoltage_now": false,
+        "throttled_now": false,
+        "current_flags_clear": true
+      },
+      {
+        "elapsed_seconds": 4.025250226000026,
+        "raw": "throttled=0x50000",
+        "undervoltage_now": false,
+        "throttled_now": false,
+        "current_flags_clear": true
+      },
+      {
+        "elapsed_seconds": 5.031370453000022,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 6.040399745000059,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 7.049967147000075,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 8.061817882000014,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 9.079656141999976,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 10.087598584000034,
+        "raw": "throttled=0x50005",
+        "undervoltage_now": true,
+        "throttled_now": true,
+        "current_flags_clear": false
+      },
+      {
+        "elapsed_seconds": 11.094137041000067,
+        "raw": "throttled=0x50000",
+        "undervoltage_now": false,
+        "throttled_now": false,
+        "current_flags_clear": true
+      }
+    ],
+    "motors_driven": false,
+    "full_two_camera_integration_test": false,
+    "camera_B_angle_retest_deferred_by_user": true
+  },
+  "current_external_USB_state": "Tang and vehicle USB physically unplugged per user confirmation",
+  "next_step": "Compare a known-good alternative Pi power supply; undervoltage also observed with external USB boards physically unplugged. Then restore Tang USB recognition and repeat performance. No further load tests are running."
+}

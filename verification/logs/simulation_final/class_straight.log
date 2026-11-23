@@ -1,0 +1,3 @@
+PASS vector=vectors/class_straight frame=0 cycles=632216 raw=0 class=0 context=-32140
+PASS vector=vectors/class_straight frame=1 cycles=632216 raw=0 class=0 context=-32140
+C:\AICAR\ULT_CNN\fpga_release_20261025\rtl\core_tb.sv:61: $finish called at 12733790000 (1ps)

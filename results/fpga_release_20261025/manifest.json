@@ -1,0 +1,204 @@
+{
+  "checkpoint": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\best_model.pt",
+  "checkpoint_sha256": "39eac826632a58d950e42ebe957884fec1a8313f7eb1873c95831eff1e62d609",
+  "architecture": "crossing_context_64",
+  "classes": [
+    "straight",
+    "left",
+    "right",
+    "sharp_left",
+    "sharp_right",
+    "stop"
+  ],
+  "parameter_count": 2977,
+  "input_fractional_bits": 11,
+  "activation_fractional_bits": {
+    "conv1": 11,
+    "conv2": 10,
+    "fc1": 8,
+    "fc2": 9,
+    "context": 11
+  },
+  "weight_bits": 16,
+  "activation_bits": 16,
+  "context_logit_bits": 32,
+  "accumulator_bits": 64,
+  "rounding": "nearest, ties away from zero for parameters and MAC shifts",
+  "input_conversion": "(byte*2048+127)//255",
+  "tensor_order": "Conv O,I,Y,X; dense O,I; features C,Y,X",
+  "saturation": "int16 activations/logits; int32 context head logit",
+  "tensors": [
+    {
+      "name": "base.features.0.weight",
+      "file": "weights/conv1_w.hex",
+      "shape": [
+        3,
+        1,
+        3,
+        3
+      ],
+      "count": 27,
+      "fractional_bits": 14,
+      "min": -9869,
+      "max": 27579,
+      "sha256": "52f75d848751fe3b35e9f87d59af2123f08ca1c03f18691dbf393491d224a53a",
+      "binary_offset_bytes": 0
+    },
+    {
+      "name": "base.features.0.bias",
+      "file": "weights/conv1_b.hex",
+      "shape": [
+        3
+      ],
+      "count": 3,
+      "fractional_bits": 11,
+      "min": -674,
+      "max": 44,
+      "sha256": "d2b585cf00de7ff1feb37aa9611559868ce10f9e91ce9c0b953fb90dbdf6f3f2",
+      "binary_offset_bytes": 54
+    },
+    {
+      "name": "base.features.3.weight",
+      "file": "weights/conv2_w.hex",
+      "shape": [
+        6,
+        3,
+        3,
+        3
+      ],
+      "count": 162,
+      "fractional_bits": 14,
+      "min": -12265,
+      "max": 16902,
+      "sha256": "45c8ecca54264965435215af609f9689aa9db6050f48573be37df37a33fc6a07",
+      "binary_offset_bytes": 60
+    },
+    {
+      "name": "base.features.3.bias",
+      "file": "weights/conv2_b.hex",
+      "shape": [
+        6
+      ],
+      "count": 6,
+      "fractional_bits": 10,
+      "min": -685,
+      "max": 718,
+      "sha256": "58bfc445e2c1ba4110671bb9fa4fddc40c0a7adbe71a80f357cc9298905bb6b0",
+      "binary_offset_bytes": 384
+    },
+    {
+      "name": "base.classifier.1.weight",
+      "file": "weights/fc1_w.hex",
+      "shape": [
+        12,
+        96
+      ],
+      "count": 1152,
+      "fractional_bits": 13,
+      "min": -17056,
+      "max": 8536,
+      "sha256": "0db80d6534b896146858a45b91cc791d0539ff5700897352c5fe949b53678bdd",
+      "binary_offset_bytes": 396
+    },
+    {
+      "name": "base.classifier.1.bias",
+      "file": "weights/fc1_b.hex",
+      "shape": [
+        12
+      ],
+      "count": 12,
+      "fractional_bits": 8,
+      "min": -80,
+      "max": 158,
+      "sha256": "dc9c03ba28becb8049ae5e367feef82bbe48dca50e1905624fa508f30f4dc097",
+      "binary_offset_bytes": 2700
+    },
+    {
+      "name": "base.classifier.3.weight",
+      "file": "weights/fc2_w.hex",
+      "shape": [
+        6,
+        12
+      ],
+      "count": 72,
+      "fractional_bits": 14,
+      "min": -16276,
+      "max": 10417,
+      "sha256": "ad972120499ab2ff7044b28e2d703e104fe966e040f59c9bf438ce764bf90ae6",
+      "binary_offset_bytes": 2724
+    },
+    {
+      "name": "base.classifier.3.bias",
+      "file": "weights/fc2_b.hex",
+      "shape": [
+        6
+      ],
+      "count": 6,
+      "fractional_bits": 9,
+      "min": -154,
+      "max": 105,
+      "sha256": "0579fad44553665635eb93b6d79d41a2251ed4bdc225290832151405fc1331b2",
+      "binary_offset_bytes": 2868
+    },
+    {
+      "name": "context_head.weight",
+      "file": "weights/context_w.hex",
+      "shape": [
+        1,
+        1536
+      ],
+      "count": 1536,
+      "fractional_bits": 14,
+      "min": -20490,
+      "max": 8901,
+      "sha256": "f4c7e2d4582c92d986c7bb03bbc1f778fe8f7375a6687ab68690c93e12aa3e3b",
+      "binary_offset_bytes": 2880
+    },
+    {
+      "name": "context_head.bias",
+      "file": "weights/context_b.hex",
+      "shape": [
+        1
+      ],
+      "count": 1,
+      "fractional_bits": 11,
+      "min": -309,
+      "max": -309,
+      "sha256": "34b2eb3c9b54ceddeee4331899dea3cd10fe484d9bbddb1dbc8412cfe20a045c",
+      "binary_offset_bytes": 5952
+    }
+  ],
+  "thresholds": {
+    "activate_q": 5810,
+    "keep_q": 4500,
+    "activate_probability": 0.9446295628547668,
+    "keep_probability": 0.9,
+    "fractional_bits": 11,
+    "clear_seconds": 1.5
+  },
+  "preprocessing": {
+    "input_size": [
+      16,
+      16
+    ],
+    "intermediate_size": [
+      64,
+      64
+    ],
+    "crop_top_ratio": 0.25,
+    "white_threshold": 127,
+    "mode": "binary",
+    "paired_context64": true
+  },
+  "status": "verified_core_export_not_board_ready",
+  "preprocess_contract": "Legacy: PIL L, crop top floor(H*.25), BOX64, >=127 binary, BOX16. Context: uncropped PIL L, BOX64. Both uint8.",
+  "rpi_contract": "Receive raw legacy class and context logit; use two logit thresholds and 1.5 second grace. STOP currently maps to straight; motor mapping stays on RPi.",
+  "packed_weights": {
+    "file": "weights.bin",
+    "bytes": 5954,
+    "endianness": "little",
+    "signed_bits": 16,
+    "sha256": "12494dfd9bbd66efc9f5e22ec480bf7799d438882478909146e03367618f89ca",
+    "note": "Packed parameter values only; not a board configuration or bitstream."
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "status": "limited_by_power",
+  "platform": "Linux-6.18.34+rpt-rpi-v8-aarch64-with-glibc2.41",
+  "python": "3.13.5",
+  "opencv": "5.0.0",
+  "numpy": "2.2.4",
+  "cpu_cores": 4,
+  "model_sha256": "38d7ef38f8baa152f8e796d3553065731b4009328e7fa890412f332e7ce1960d",
+  "state_before": {
+    "throttled": "throttled=0x50000",
+    "temperature": "temp=40.8'C",
+    "cpu_frequency_khz": {
+      "cpu3": 1400000,
+      "cpu1": 1400000,
+      "cpu2": 1400000,
+      "cpu0": 1400000
+    },
+    "load_average": [
+      0.392578125,
+      0.490234375,
+      0.21630859375
+    ]
+  },
+  "motor_port_opened": false,
+  "camera_opened": false,
+  "scope": "Same weights, dual preprocessed tensors. CPU=float32 OpenCV DNN; FPGA=signed16 fixed point.",
+  "cpu_tests": [
+    {
+      "threads": 1,
+      "validated_outputs": [
+        {
+          "input": "class_left",
+          "raw_class": 1,
+          "context_logit": -17.287853240966797,
+          "torch_logit_max_abs_error": 4.76837158203125e-06,
+          "torch_context_abs_error": 1.33514404296875e-05
+        },
+        {
+          "input": "class_right",
+          "raw_class": 2,
+          "context_logit": -34.642578125,
+          "torch_logit_max_abs_error": 1.043081283569336e-06,
+          "torch_context_abs_error": 0.0
+        },
+        {
+          "input": "class_sharp_left",
+          "raw_class": 3,
+          "context_logit": -9.866860389709473,
+          "torch_logit_max_abs_error": 1.9073486328125e-06,
+          "torch_context_abs_error": 2.47955322265625e-05
+        },
+        {
+          "input": "class_sharp_right",
+          "raw_class": 4,
+          "context_logit": -14.77944564819336,
+          "torch_logit_max_abs_error": 4.76837158203125e-06,
+          "torch_context_abs_error": 9.5367431640625e-07
+        },
+        {
+          "input": "class_stop",
+          "raw_class": 5,
+          "context_logit": -23.671192169189453,
+          "torch_logit_max_abs_error": 2.0563602447509766e-06,
+          "torch_context_abs_error": 1.52587890625e-05
+        },
+        {
+          "input": "class_straight",
+          "raw_class": 0,
+          "context_logit": -15.709637641906738,
+          "torch_logit_max_abs_error": 2.384185791015625e-06,
+          "torch_context_abs_error": 9.5367431640625e-06
+        },
+        {
+          "input": "context_clear",
+          "raw_class": 5,
+          "context_logit": -0.0982513427734375,
+          "torch_logit_max_abs_error": 1.6689300537109375e-06,
+          "torch_context_abs_error": 3.769993782043457e-06
+        },
+        {
+          "input": "crossing_activate",
+          "raw_class": 5,
+          "context_logit": 4.6701459884643555,
+          "torch_logit_max_abs_error": 1.1920928955078125e-06,
+          "torch_context_abs_error": 1.2874603271484375e-05
+        },
+        {
+          "input": "stress_border",
+          "raw_class": 3,
+          "context_logit": -39.509666442871094,
+          "torch_logit_max_abs_error": 3.337860107421875e-06,
+          "torch_context_abs_error": 0.0
+        },
+        {
+          "input": "stress_checker",
+          "raw_class": 1,
+          "context_logit": 12.72567367553711,
+          "torch_logit_max_abs_error": 1.430511474609375e-06,
+          "torch_context_abs_error": 5.7220458984375e-06
+        },
+        {
+          "input": "stress_random",
+          "raw_class": 1,
+          "context_logit": 1.6201820373535156,
+          "torch_logit_max_abs_error": 5.9604644775390625e-06,
+          "torch_context_abs_error": 7.748603820800781e-06
+        },
+        {
+          "input": "stress_white",
+          "raw_class": 1,
+          "context_logit": 35.499908447265625,
+          "torch_logit_max_abs_error": 9.5367431640625e-06,
+          "torch_context_abs_error": 6.103515625e-05
+        },
+        {
+          "input": "stress_zero",
+          "raw_class": 1,
+          "context_logit": -10.253870964050293,
+          "torch_logit_max_abs_error": 4.991888999938965e-07,
+          "torch_context_abs_error": 9.5367431640625e-07
+        }
+      ],
+      "runs": [
+        {
+          "repeat": 1,
+          "iterations": 344,
+          "wall_seconds": 3.0028775970000083,
+          "process_cpu_seconds": 3.0021905300000005,
+          "cpu_ms_per_frame": 8.727298052325581,
+          "one_core_cpu_percent": 99.97711971341441,
+          "four_core_capacity_percent": 24.994279928353603,
+          "inference_ms": {
+            "mean": 7.370830584302325,
+            "median": 7.2857415,
+            "p95": 7.4293116,
+            "p99": 8.42718526,
+            "maximum": 27.775702
+          },
+          "state_before": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=40.8'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.392578125,
+              0.490234375,
+              0.21630859375
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=40.8'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.44140625,
+              0.4990234375,
+              0.220703125
+            ]
+          }
+        },
+        {
+          "repeat": 2,
+          "iterations": 346,
+          "wall_seconds": 3.001400325999981,
+          "process_cpu_seconds": 3.000831206,
+          "cpu_ms_per_frame": 8.67292256069364,
+          "one_core_cpu_percent": 99.98103818424183,
+          "four_core_capacity_percent": 24.995259546060456,
+          "inference_ms": {
+            "mean": 7.311405635838151,
+            "median": 7.279271,
+            "p95": 7.38819825,
+            "p99": 8.379420200000004,
+            "maximum": 9.354463
+          },
+          "state_before": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=40.8'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.44140625,
+              0.4990234375,
+              0.220703125
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=42.4'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.44140625,
+              0.4990234375,
+              0.220703125
+            ]
+          }
+        },
+        {
+          "repeat": 3,
+          "iterations": 346,
+          "wall_seconds": 3.0058625629999938,
+          "process_cpu_seconds": 3.004580217000001,
+          "cpu_ms_per_frame": 8.68375785260116,
+          "one_core_cpu_percent": 99.95733850190697,
+          "four_core_capacity_percent": 24.989334625476744,
+          "inference_ms": {
+            "mean": 7.323794962427746,
+            "median": 7.2902935,
+            "p95": 7.4330894999999995,
+            "p99": 8.221980750000004,
+            "maximum": 9.334528
+          },
+          "state_before": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.44140625,
+              0.4990234375,
+              0.220703125
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=42.4'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.486328125,
+              0.5078125,
+              0.22509765625
+            ]
+          }
+        }
+      ],
+      "median_run_mean_inference_ms": 7.323794962427746,
+      "median_cpu_ms_per_frame": 8.68375785260116
+    },
+    {
+      "threads": 4,
+      "validated_outputs": [
+        {
+          "input": "class_left",
+          "raw_class": 1,
+          "context_logit": -17.287853240966797,
+          "torch_logit_max_abs_error": 4.76837158203125e-06,
+          "torch_context_abs_error": 1.33514404296875e-05
+        },
+        {
+          "input": "class_right",
+          "raw_class": 2,
+          "context_logit": -34.642578125,
+          "torch_logit_max_abs_error": 1.043081283569336e-06,
+          "torch_context_abs_error": 0.0
+        },
+        {
+          "input": "class_sharp_left",
+          "raw_class": 3,
+          "context_logit": -9.866860389709473,
+          "torch_logit_max_abs_error": 1.9073486328125e-06,
+          "torch_context_abs_error": 2.47955322265625e-05
+        },
+        {
+          "input": "class_sharp_right",
+          "raw_class": 4,
+          "context_logit": -14.77944564819336,
+          "torch_logit_max_abs_error": 4.76837158203125e-06,
+          "torch_context_abs_error": 9.5367431640625e-07
+        },
+        {
+          "input": "class_stop",
+          "raw_class": 5,
+          "context_logit": -23.671192169189453,
+          "torch_logit_max_abs_error": 2.0563602447509766e-06,
+          "torch_context_abs_error": 1.52587890625e-05
+        },
+        {
+          "input": "class_straight",
+          "raw_class": 0,
+          "context_logit": -15.709637641906738,
+          "torch_logit_max_abs_error": 2.384185791015625e-06,
+          "torch_context_abs_error": 9.5367431640625e-06
+        },
+        {
+          "input": "context_clear",
+          "raw_class": 5,
+          "context_logit": -0.0982513427734375,
+          "torch_logit_max_abs_error": 1.6689300537109375e-06,
+          "torch_context_abs_error": 3.769993782043457e-06
+        },
+        {
+          "input": "crossing_activate",
+          "raw_class": 5,
+          "context_logit": 4.6701459884643555,
+          "torch_logit_max_abs_error": 1.1920928955078125e-06,
+          "torch_context_abs_error": 1.2874603271484375e-05
+        },
+        {
+          "input": "stress_border",
+          "raw_class": 3,
+          "context_logit": -39.509666442871094,
+          "torch_logit_max_abs_error": 3.337860107421875e-06,
+          "torch_context_abs_error": 0.0
+        },
+        {
+          "input": "stress_checker",
+          "raw_class": 1,
+          "context_logit": 12.72567367553711,
+          "torch_logit_max_abs_error": 1.430511474609375e-06,
+          "torch_context_abs_error": 5.7220458984375e-06
+        },
+        {
+          "input": "stress_random",
+          "raw_class": 1,
+          "context_logit": 1.6201820373535156,
+          "torch_logit_max_abs_error": 5.9604644775390625e-06,
+          "torch_context_abs_error": 7.748603820800781e-06
+        },
+        {
+          "input": "stress_white",
+          "raw_class": 1,
+          "context_logit": 35.499908447265625,
+          "torch_logit_max_abs_error": 9.5367431640625e-06,
+          "torch_context_abs_error": 6.103515625e-05
+        },
+        {
+          "input": "stress_zero",
+          "raw_class": 1,
+          "context_logit": -10.253870964050293,
+          "torch_logit_max_abs_error": 4.991888999938965e-07,
+          "torch_context_abs_error": 9.5367431640625e-07
+        }
+      ],
+      "runs": [
+        {
+          "repeat": 1,
+          "iterations": 228,
+          "wall_seconds": 3.0059364219999907,
+          "process_cpu_seconds": 7.223084348000002,
+          "cpu_ms_per_frame": 31.68019450877194,
+          "one_core_cpu_percent": 240.29398277140356,
+          "four_core_capacity_percent": 60.07349569285089,
+          "inference_ms": {
+            "mean": 10.669078368421053,
+            "median": 10.573822499999999,
+            "p95": 14.9156184,
+            "p99": 16.380885279999998,
+            "maximum": 22.243914
+          },
+          "state_before": {
+            "throttled": "throttled=0x50005",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.486328125,
+              0.5078125,
+              0.22509765625
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.76806640625,
+              0.56591796875,
+              0.24560546875
+            ]
+          }
+        },
+        {
+          "repeat": 2,
+          "iterations": 267,
+          "wall_seconds": 3.0063113799999996,
+          "process_cpu_seconds": 7.267418274000001,
+          "cpu_ms_per_frame": 27.218795033707867,
+          "one_core_cpu_percent": 241.73870751871357,
+          "four_core_capacity_percent": 60.43467687967839,
+          "inference_ms": {
+            "mean": 9.058246820224719,
+            "median": 10.450478,
+            "p95": 10.721348899999999,
+            "p99": 11.483574639999993,
+            "maximum": 14.186563
+          },
+          "state_before": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.76806640625,
+              0.56591796875,
+              0.24560546875
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50005",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.76806640625,
+              0.56591796875,
+              0.24560546875
+            ]
+          }
+        },
+        {
+          "repeat": 3,
+          "iterations": 236,
+          "wall_seconds": 3.000646443000022,
+          "process_cpu_seconds": 7.323465752000001,
+          "cpu_ms_per_frame": 31.031634542372885,
+          "one_core_cpu_percent": 244.06293414155314,
+          "four_core_capacity_percent": 61.015733535388286,
+          "inference_ms": {
+            "mean": 10.251270741525424,
+            "median": 10.494465,
+            "p95": 10.73020475,
+            "p99": 13.412116950000014,
+            "maximum": 14.578753
+          },
+          "state_before": {
+            "throttled": "throttled=0x50005",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.76806640625,
+              0.56591796875,
+              0.24560546875
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50005",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.787109375,
+              0.5732421875,
+              0.25
+            ]
+          }
+        }
+      ],
+      "median_run_mean_inference_ms": 10.251270741525424,
+      "median_cpu_ms_per_frame": 31.031634542372885
+    }
+  ],
+  "timestamp_utc": "2026-10-31T21:35:32Z",
+  "FPGA_receiver_only": {
+    "wall_seconds": 10.036036596000002,
+    "process_cpu_seconds": 0.07845942400000183,
+    "valid_frames": 32,
+    "CRC_errors": 0,
+    "rejected": 0,
+    "cpu_ms_per_result": 2.4518570000000572,
+    "one_core_cpu_percent": 0.7817769818742281,
+    "state_before": {
+      "throttled": "throttled=0x50005",
+      "temperature": "temp=41.9'C",
+      "cpu_frequency_khz": {
+        "cpu3": 1400000,
+        "cpu1": 1400000,
+        "cpu2": 1400000,
+        "cpu0": 1400000
+      },
+      "load_average": [
+        0.787109375,
+        0.5732421875,
+        0.25
+      ]
+    },
+    "state_after": {
+      "throttled": "throttled=0x50000",
+      "temperature": "temp=40.2'C",
+      "cpu_frequency_khz": {
+        "cpu3": 600000,
+        "cpu1": 600000,
+        "cpu2": 600000,
+        "cpu0": 600000
+      },
+      "load_average": [
+        0.61181640625,
+        0.54443359375,
+        0.24560546875
+      ]
+    },
+    "motor_port_opened": false,
+    "scope": "Pi receiver and decoder only; excludes UNO and logging IO"
+  },
+  "state_after": {
+    "throttled": "throttled=0x50000",
+    "temperature": "temp=40.8'C",
+    "cpu_frequency_khz": {
+      "cpu3": 600000,
+      "cpu1": 600000,
+      "cpu2": 600000,
+      "cpu0": 600000
+    },
+    "load_average": [
+      0.61181640625,
+      0.54443359375,
+      0.24560546875
+    ]
+  },
+  "current_power_or_throttle_seen": true
+}

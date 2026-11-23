@@ -1,0 +1,10 @@
+{
+  "status": "flashed_and_identified",
+  "timestamp_utc": "2026-10-31T08:48:42.5207202Z",
+  "port": "COM4",
+  "firmware_hex": "build_uno_torque120/ULT_Vehicle_Control.ino.hex",
+  "pwm_limit_reported_by_uno": 120,
+  "stop_ack_verified": true,
+  "motor_motion_command_sent": false,
+  "next_step": "Lift all wheels, confirm motor power, then perform <=0.5 s supervised 90/29 and 90/18 tests."
+}

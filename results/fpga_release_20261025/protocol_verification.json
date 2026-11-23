@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "packet_bytes": 36,
+  "crc_known_vector": "29B1",
+  "verified": [
+    "fragmented input",
+    "noise resynchronization",
+    "CRC corruption",
+    "frame-id wrap",
+    "duplicate/out-of-order rejection",
+    "wrong model/preprocessing rejection",
+    "error flags",
+    "activation and keep thresholds",
+    "1.5s grace release",
+    "stale reset",
+    "505-step equivalence to the original temporal policy at quantized scores"
+  ]
+}

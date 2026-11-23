@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="487.27559055118115" height="114" preserveAspectRatio="xMinYMin meet" viewBox="0 0 487 114" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="487.27559055118115" height="114"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-114)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="55.2587890625" y="88" style="font-family: Mono; font-size: 9px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,176) scale(1,-1)">Logic</text>
+			<rect x="90" y="83" width="310" height="18" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.4; fill: rgb(93%,93%,93%); fill-rule: evenodd;"/>
+			<rect x="90" y="83" width="44.40104166666666" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="457.23555148868115" y="88" style="font-family: Mono; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,176) scale(1,-1)">14.32%</text>
+			<text x="40.41406249999999" y="58" style="font-family: Mono; font-size: 9px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,116) scale(1,-1)">Register</text>
+			<rect x="90" y="53" width="310" height="18" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.4; fill: rgb(93%,93%,93%); fill-rule: evenodd;"/>
+			<rect x="90" y="53" width="18.934603174603183" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="461.90889133243115" y="58" style="font-family: Mono; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,116) scale(1,-1)">6.11%</text>
+			<text x="55.2587890625" y="28" style="font-family: Mono; font-size: 9px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">BSRAM</text>
+			<rect x="90" y="23" width="310" height="18" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.4; fill: rgb(93%,93%,93%); fill-rule: evenodd;"/>
+			<rect x="90" y="23" width="296.5217391304348" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="457.23555148868115" y="28" style="font-family: Mono; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">95.65%</text>
+		</g>
+	</g>
+</svg>

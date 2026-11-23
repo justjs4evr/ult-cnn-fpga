@@ -1,0 +1,11 @@
+{
+  "straight_pwm": 42,
+  "slow_pwm": 40,
+  "gentle_outer_pwm": 52,
+  "gentle_inner_pwm": 33,
+  "sharp_outer_pwm": 65,
+  "sharp_inner_pwm": 30,
+  "fpga_port": null,
+  "motor_port": null,
+  "_help": "PWM command scale 0..255, firmware limit120. Values are not speed percent or steering degrees. Left turn=(inner,outer), right=(outer,inner). STOP slows straight; crossing context retains raw turn. Slowdown uses the same turn outputs as normal, matching the last tested profile. Edit six PWM values; change one factor per trial. Calibration remains false."
+}

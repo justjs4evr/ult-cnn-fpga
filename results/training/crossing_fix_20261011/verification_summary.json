@@ -1,0 +1,239 @@
+{
+  "checkpoint": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\best_model.pt",
+  "sha256": "39eac826632a58d950e42ebe957884fec1a8313f7eb1873c95831eff1e62d609",
+  "frozen_base_checkpoint": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_bidirectional_20261010_215753_703782\\best_model.pt",
+  "architecture": "crossing_context_64",
+  "parameters": 2977,
+  "original_parameters": 1440,
+  "added_parameters": 1537,
+  "original_weights_exactly_preserved": true,
+  "context_policy": {
+    "enabled": true,
+    "activate_probability": 0.9446295628547668,
+    "keep_probability": 0.9,
+    "clear_seconds": 1.5
+  },
+  "fpga_export_implemented": false,
+  "crossing_trials": {
+    "augmented_context_test": {
+      "passed": 28,
+      "total": 28,
+      "max_lateral_displacement_mm": 45.287266586797614,
+      "max_heading_change_deg": 5.659571699549588
+    },
+    "fresh_context_test": {
+      "passed": 28,
+      "total": 28,
+      "max_lateral_displacement_mm": 43.767799282697524,
+      "max_heading_change_deg": 5.6588472458968795
+    }
+  },
+  "actual_controller": {
+    "duration_s": 149.984,
+    "samples": 1563,
+    "max_reference_distance_mm": 47.068460777892376,
+    "reference_distance_p95_mm": 33.11736259597117,
+    "open_end_reached": true,
+    "scored_samples": 1463,
+    "bottom_tail_with_35mm_clearance": true,
+    "open_end_camera_approach_reached": true,
+    "scored_duration_s": 140.384,
+    "score_end_reason": "300mm before open track end enters forward-camera ROI",
+    "east_crossing_samples": 26,
+    "south_crossing_samples": 51,
+    "east_crossing_max_heading_error_deg": 2.8439108265552875,
+    "south_crossing_max_heading_error_deg": 5.865910826555307,
+    "passed": true,
+    "limitation": "Same-map approximate reference trajectory corridor, not independent lane ground truth or a completed lap.",
+    "raw_run_directory": "C:\\AICAR\\ULT_CNN\\webots_runs\\ult_context_runtime_validation\\20261011_065750_509210",
+    "context_command_consistency_verified": true
+  },
+  "photo_evaluation": {
+    "previous": {
+      "accuracy": 0.8566084788029925,
+      "macro_f1": 0.7837018616930513,
+      "support": {
+        "straight": 113,
+        "left": 105,
+        "right": 177,
+        "sharp_left": 638,
+        "sharp_right": 1314,
+        "stop": 59
+      },
+      "recall": {
+        "straight": 0.8407079646017699,
+        "left": 0.8095238095238095,
+        "right": 0.8192090395480226,
+        "sharp_left": 0.8369905956112853,
+        "sharp_right": 0.8729071537290716,
+        "stop": 0.9322033898305084
+      },
+      "precision": {
+        "straight": 0.7142857142857143,
+        "left": 0.7456140350877193,
+        "right": 0.6872037914691943,
+        "sharp_left": 0.8626817447495961,
+        "sharp_right": 0.940935192780968,
+        "stop": 0.5
+      },
+      "f1": {
+        "straight": 0.7723577235772358,
+        "left": 0.776255707762557,
+        "right": 0.7474226804123711,
+        "sharp_left": 0.8496420047732697,
+        "sharp_right": 0.9056454796683774,
+        "stop": 0.650887573964497
+      },
+      "confusion_matrix": [
+        [
+          95,
+          2,
+          6,
+          0,
+          0,
+          10
+        ],
+        [
+          4,
+          85,
+          4,
+          2,
+          0,
+          10
+        ],
+        [
+          6,
+          11,
+          145,
+          0,
+          1,
+          14
+        ],
+        [
+          7,
+          13,
+          2,
+          534,
+          71,
+          11
+        ],
+        [
+          20,
+          1,
+          54,
+          82,
+          1147,
+          10
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          0,
+          55
+        ]
+      ]
+    },
+    "candidate": {
+      "accuracy": 0.8541147132169576,
+      "macro_f1": 0.77715971609499,
+      "support": {
+        "straight": 113,
+        "left": 105,
+        "right": 177,
+        "sharp_left": 638,
+        "sharp_right": 1314,
+        "stop": 59
+      },
+      "recall": {
+        "straight": 0.8141592920353983,
+        "left": 0.8095238095238095,
+        "right": 0.8192090395480226,
+        "sharp_left": 0.835423197492163,
+        "sharp_right": 0.8713850837138508,
+        "stop": 0.9322033898305084
+      },
+      "precision": {
+        "straight": 0.7076923076923077,
+        "left": 0.7456140350877193,
+        "right": 0.6872037914691943,
+        "sharp_left": 0.8624595469255664,
+        "sharp_right": 0.9408381265406738,
+        "stop": 0.47413793103448276
+      },
+      "f1": {
+        "straight": 0.757201646090535,
+        "left": 0.776255707762557,
+        "right": 0.7474226804123711,
+        "sharp_left": 0.8487261146496815,
+        "sharp_right": 0.9047807190833662,
+        "stop": 0.6285714285714286
+      },
+      "confusion_matrix": [
+        [
+          92,
+          2,
+          6,
+          0,
+          0,
+          13
+        ],
+        [
+          4,
+          85,
+          4,
+          2,
+          0,
+          10
+        ],
+        [
+          6,
+          11,
+          145,
+          0,
+          1,
+          14
+        ],
+        [
+          7,
+          13,
+          2,
+          533,
+          71,
+          12
+        ],
+        [
+          20,
+          1,
+          54,
+          82,
+          1145,
+          12
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          0,
+          55
+        ]
+      ]
+    },
+    "original_weights_exactly_preserved": true,
+    "limitations": "Fixed original photo test; same-map simulation trials are separate and do not prove new-map or real-camera generalization."
+  },
+  "settings": {
+    "stop_enabled": false,
+    "drive_speed_multiplier": 1.5,
+    "inference_interval_seconds": 0.08
+  },
+  "limitations": [
+    "Same 3m map only; nearby views remain correlated. No unseen-map or real-camera guarantee.",
+    "Route scored until 300mm before the open track end; 150-second recording is not a completed lap.",
+    "Added full-frame grayscale64 convolution pass and context head require FPGA implementation and quantization verification.",
+    "Recognition grace period holds straight for 1.5 seconds; arbitrary route choice is not inferred.",
+    "Historical manifest membership is preserved but historical image bytes cannot be proved unchanged."
+  ]
+}

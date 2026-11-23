@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="487.27559055118115" height="128" preserveAspectRatio="xMinYMin meet" viewBox="0 0 487 128" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="487.27559055118115" height="128"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-128)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="73" width="145" height="42" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="47.6510498046875" y="100.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">IDLE / LOAD</text>
+			<text x="37.462109375000004" y="88.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,176) scale(1,-1)">두 입력 평면 저장</text>
+			<rect x="164" y="73" width="145" height="42" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="214.1489013671875" y="100.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">MAC_READ</text>
+			<text x="202.99140625" y="88.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,176) scale(1,-1)">동기 메모리 읽기</text>
+			<rect x="328" y="73" width="145" height="42" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="379.1599365234375" y="100.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">MAC_EXEC</text>
+			<text x="358.29140625" y="88.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,176) scale(1,-1)">곱셈 누산과 재양자화</text>
+			<path d="M 145,94 L 164,94 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="164 94, 159 91.5, 159 96.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 309,94 L 328,94 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="328 94, 323 91.5, 323 96.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<rect x="164" y="8" width="145" height="42" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="197.8066650390625" y="35.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,70) scale(1,-1)">POOL_READ / EXEC</text>
+			<text x="201.5661865234375" y="23.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,46) scale(1,-1)">ReLU와 최대 풀링</text>
+			<rect x="328" y="8" width="145" height="42" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="375.08818359375" y="35.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,70) scale(1,-1)">ARG / DONE</text>
+			<text x="362.64140625" y="23.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,46) scale(1,-1)">원시 클래스와 문맥</text>
+			<path d="M 400,73 L 400,50 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="400 50, 397.5 55, 402.5 55" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 328,29 L 309,29 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="309 29, 314 31.5, 314 26.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 164,29 L 152,29 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="152 29, 157 31.5, 157 26.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 152,29 L 152,94 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="152 94, 154.5 89, 149.5 89" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 152,94 L 164,94 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="164 94, 159 91.5, 159 96.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<text x="39.89111328125" y="20" style="font-family: KR; font-size: 9px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,40) scale(1,-1)">공유 MAC 경로</text>
+		</g>
+	</g>
+</svg>

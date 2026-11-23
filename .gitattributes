@@ -1,0 +1,3 @@
+# Store every file byte-for-byte: results/*.json record SHA-256 hashes of RTL, weights and
+# constraints, so line-ending conversion would break hash verification after checkout.
+* -text

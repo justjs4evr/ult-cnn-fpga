@@ -1,0 +1,240 @@
+{
+  "previous": {
+    "test": {
+      "accuracy": 0.8566084788029925,
+      "macro_f1": 0.7837018616930513,
+      "support": {
+        "straight": 113,
+        "left": 105,
+        "right": 177,
+        "sharp_left": 638,
+        "sharp_right": 1314,
+        "stop": 59
+      },
+      "recall": {
+        "straight": 0.8407079646017699,
+        "left": 0.8095238095238095,
+        "right": 0.8192090395480226,
+        "sharp_left": 0.8369905956112853,
+        "sharp_right": 0.8729071537290716,
+        "stop": 0.9322033898305084
+      },
+      "precision": {
+        "straight": 0.7142857142857143,
+        "left": 0.7456140350877193,
+        "right": 0.6872037914691943,
+        "sharp_left": 0.8626817447495961,
+        "sharp_right": 0.940935192780968,
+        "stop": 0.5
+      },
+      "f1": {
+        "straight": 0.7723577235772358,
+        "left": 0.776255707762557,
+        "right": 0.7474226804123711,
+        "sharp_left": 0.8496420047732697,
+        "sharp_right": 0.9056454796683774,
+        "stop": 0.650887573964497
+      },
+      "confusion_matrix": [
+        [
+          95,
+          2,
+          6,
+          0,
+          0,
+          10
+        ],
+        [
+          4,
+          85,
+          4,
+          2,
+          0,
+          10
+        ],
+        [
+          6,
+          11,
+          145,
+          0,
+          1,
+          14
+        ],
+        [
+          7,
+          13,
+          2,
+          534,
+          71,
+          11
+        ],
+        [
+          20,
+          1,
+          54,
+          82,
+          1147,
+          10
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          0,
+          55
+        ]
+      ],
+      "crossing": {
+        "count": 59,
+        "correct": 55,
+        "recall": 0.9322033898305084,
+        "turn_errors": 3,
+        "right_errors": 0,
+        "predictions": {
+          "sharp_left": 1,
+          "stop": 55,
+          "left": 2,
+          "straight": 1
+        }
+      },
+      "directional_macro_f1": 0.8102647192387622
+    },
+    "local_test": {
+      "count": 480,
+      "action_accuracy": 0.2520833333333333,
+      "center_count": 0,
+      "center_passage_correct": 0,
+      "predictions": {
+        "sharp_left": 58,
+        "left": 65,
+        "right": 67,
+        "sharp_right": 71,
+        "straight": 41,
+        "stop": 178
+      }
+    }
+  },
+  "candidate": {
+    "test": {
+      "accuracy": 0.8399833748960931,
+      "macro_f1": 0.7623923896858348,
+      "support": {
+        "straight": 113,
+        "left": 105,
+        "right": 177,
+        "sharp_left": 638,
+        "sharp_right": 1314,
+        "stop": 59
+      },
+      "recall": {
+        "straight": 0.7610619469026548,
+        "left": 0.7904761904761904,
+        "right": 0.8361581920903954,
+        "sharp_left": 0.8244514106583072,
+        "sharp_right": 0.8554033485540334,
+        "stop": 0.9152542372881356
+      },
+      "precision": {
+        "straight": 0.7889908256880734,
+        "left": 0.680327868852459,
+        "right": 0.6271186440677966,
+        "sharp_left": 0.8566775244299675,
+        "sharp_right": 0.9289256198347108,
+        "stop": 0.46956521739130436
+      },
+      "f1": {
+        "straight": 0.7747747747747747,
+        "left": 0.7312775330396476,
+        "right": 0.7167070217917676,
+        "sharp_left": 0.8402555910543131,
+        "sharp_right": 0.8906497622820919,
+        "stop": 0.6206896551724138
+      },
+      "confusion_matrix": [
+        [
+          86,
+          4,
+          10,
+          0,
+          0,
+          13
+        ],
+        [
+          2,
+          83,
+          6,
+          3,
+          0,
+          11
+        ],
+        [
+          4,
+          11,
+          148,
+          0,
+          4,
+          10
+        ],
+        [
+          2,
+          11,
+          5,
+          526,
+          81,
+          13
+        ],
+        [
+          14,
+          11,
+          66,
+          85,
+          1124,
+          14
+        ],
+        [
+          1,
+          2,
+          1,
+          0,
+          1,
+          54
+        ]
+      ],
+      "crossing": {
+        "count": 59,
+        "correct": 54,
+        "recall": 0.9152542372881356,
+        "turn_errors": 4,
+        "right_errors": 2,
+        "predictions": {
+          "sharp_right": 1,
+          "stop": 54,
+          "left": 2,
+          "straight": 1,
+          "right": 1
+        }
+      },
+      "directional_macro_f1": 0.790732936588519
+    },
+    "local_test": {
+      "count": 480,
+      "action_accuracy": 0.3958333333333333,
+      "center_count": 0,
+      "center_passage_correct": 0,
+      "predictions": {
+        "sharp_left": 54,
+        "left": 108,
+        "right": 95,
+        "sharp_right": 48,
+        "straight": 12,
+        "stop": 163
+      }
+    }
+  },
+  "leakage_audit": {
+    "additional_train_vs_historical_held": 0,
+    "additional_train_vs_local_held": 0,
+    "scope": "Exact and mirrored 16x16 inputs; nearby poses on the same map remain correlated."
+  }
+}

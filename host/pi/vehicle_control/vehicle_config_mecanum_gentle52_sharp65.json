@@ -1,0 +1,18 @@
+{
+  "protocol": "ULTDRV1",
+  "wheel_type": "mecanum",
+  "cruise_pwm": 42,
+  "slow_pwm": 40,
+  "turn_pwm": 55,
+  "gentle_turn_pwm": 52,
+  "sharp_turn_pwm": 65,
+  "slow_gentle_turn_pwm": 52,
+  "slow_sharp_turn_pwm": 65,
+  "gentle_inner_percent": 64,
+  "sharp_inner_percent": 43,
+  "inner_pwm_floor": 30,
+  "calibration_verified": false,
+  "lifted_wheel_mapping_verified": true,
+  "ground_load_test_verified": false,
+  "note": "User confirmed sharp-left segment passage in5-second supervised CNN run supervised_cnn_20261031T123148_610665Z. Sharp outer65 with inner floor30; gentle52/33, straight42/42, STOP40/40, no timed decay. This is one observed segment success, not full calibration. Opposite-direction sharp corner, isolated gentle curve, repeatability, measured speed and full course remain unverified."
+}

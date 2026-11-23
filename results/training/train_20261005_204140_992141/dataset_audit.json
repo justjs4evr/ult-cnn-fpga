@@ -1,0 +1,45 @@
+{
+  "dataset": "C:\\AICAR\\main_classified_images",
+  "classes": [
+    "straight",
+    "left",
+    "right",
+    "sharp_left",
+    "sharp_right",
+    "stop"
+  ],
+  "mode": "binary",
+  "mirror_augment": true,
+  "split_layout": "auto",
+  "split_method": "grouped_stratified_80_10_10",
+  "split_counts": {
+    "train": {
+      "straight": 966,
+      "left": 870,
+      "right": 1464,
+      "sharp_left": 5138,
+      "sharp_right": 10381,
+      "stop": 350
+    },
+    "dev_frame": {
+      "straight": 119,
+      "left": 112,
+      "right": 173,
+      "sharp_left": 641,
+      "sharp_right": 1285,
+      "stop": 43
+    },
+    "test_img": {
+      "straight": 113,
+      "left": 105,
+      "right": 177,
+      "sharp_left": 638,
+      "sharp_right": 1314,
+      "stop": 59
+    }
+  },
+  "excluded_duplicates": {},
+  "input_label_conflict_groups": 0,
+  "input_label_conflict_images": 0,
+  "limitations": "Content-group stratification or explicit folders do not verify map/session independence; near duplicates may remain."
+}

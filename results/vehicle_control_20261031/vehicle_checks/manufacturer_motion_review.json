@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-31",
+  "factory_reference": "reference/RoboduinoV2-main/5.Car motion control/04.Car Rotational Movement.pdf",
+  "factory_code_pages": [4,5],
+  "wheel_order": ["LF","LR","RF","RR"],
+  "factory_FORWARD_signs": [1,1,1,1],
+  "factory_RIGHT_ROTATE_signs": [1,1,-1,-1],
+  "factory_LEFT_ROTATE_signs": [-1,-1,1,1],
+  "factory_RIGHT_is_strafe_not_yaw": true,
+  "existing_local_6_WiFi_Control_Car2_is_modified": true,
+  "existing_side_pair_forward_differential_has_zero_nominal_strafe": true,
+  "finding": "Original yaw signs match the earlier pivot test. Using W4 instead of paired D commands alone cannot guarantee less physical slip. All-four-positive asymmetric wheel targets are already a forward-plus-yaw mixture. Low turning speed, roller geometry, motor mismatch, surface and changing CNN output remain possible contributors.",
+  "experimental_change": "Decouple nominal forward PWM from yaw PWM; sharp trial forward10 + right_yaw55 gives65,65,-45,-45. This is an experimental superposition of factory primitives, not a factory-provided lane-following preset or calibrated body velocity.",
+  "lateral_and_diagonal_commands_exposed_by_trial": false,
+  "bench_command": "python3 mecanum_factory_bench.py --label sharp_right --ground --clear-floor --motor-power-on",
+  "software_tests_passed": true,
+  "CNN_profile_changed": false,
+  "physical_drift_elimination_verified": false
+}

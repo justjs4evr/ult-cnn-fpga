@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="487.27559055118115" height="258" preserveAspectRatio="xMinYMin meet" viewBox="0 0 487 258" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="487.27559055118115" height="258"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-258)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="205" width="120" height="38" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="27.978222656250004" y="230.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,460) scale(1,-1)">객체용 카메라 A</text>
+			<text x="38.390185546875" y="218.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,436) scale(1,-1)">Pi CSI 입력</text>
+			<rect x="300" y="205" width="140" height="38" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="335.8350830078125" y="230.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,460) scale(1,-1)">Raspberry Pi 3B+</text>
+			<text x="334.5011962890625" y="218.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,436) scale(1,-1)">YOLO와 판단·제어</text>
+			<path d="M 120,224 L 300,224 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="300 224, 295 221.5, 295 226.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<text x="179.1875" y="231" style="font-family: KR; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,462) scale(1,-1)">객체 인식용 영상</text>
+			<rect x="0" y="115" width="120" height="38" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="29.713549804687503" y="140.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,280) scale(1,-1)">차선용 OV3660</text>
+			<text x="32.6531982421875" y="128.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,256) scale(1,-1)">카메라 B 영상</text>
+			<rect x="150" y="115" width="120" height="38" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="181.8099609375" y="140.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,280) scale(1,-1)">XIAO ESP32S3</text>
+			<text x="166.262109375" y="128.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,256) scale(1,-1)">취득과 두 입력 전처리</text>
+			<rect x="300" y="115" width="140" height="38" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="339.1528076171875" y="140.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,280) scale(1,-1)">Tang Nano 20K</text>
+			<text x="340.123486328125" y="128.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,256) scale(1,-1)">CNN 장면 추론</text>
+			<path d="M 120,134 L 150,134 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="150 134, 145 131.5, 145 136.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 270,134 L 300,134 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="300 134, 295 131.5, 295 136.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 370,153 L 370,205 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="370 205, 372.5 200, 367.5 200" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<text x="331.0595703125" y="178" style="font-family: Mono; font-size: 7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,356) scale(1,-1)">36-byte</text>
+			<text x="142.2640625" y="100" style="font-family: Mono; font-size: 7.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">4,352-byte payload / UART 460800</text>
+			<rect x="300" y="20" width="140" height="38" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="336.6804443359375" y="45.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,90) scale(1,-1)">UNO와 PCA9685</text>
+			<text x="326.262109375" y="33.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,66) scale(1,-1)">명령 검증과 모터 출력</text>
+			<rect x="150" y="20" width="120" height="38" style="stroke: rgb(40%,40%,40%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="182.7955078125" y="45.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,90) scale(1,-1)">4륜 로봇 차량</text>
+			<text x="176.49140625" y="33.0" style="font-family: KR; font-size: 8.7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,66) scale(1,-1)">분류 결과의 응용</text>
+			<path d="M 440,224 L 470,224 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 470,224 L 470,39 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 470,39 L 440,39 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="440 39, 445 41.5, 445 36.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<path d="M 300,39 L 270,39 Z" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<polygon points="270 39, 275 41.5, 275 36.5" style="stroke: rgb(8%,8%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,8%,8%); fill-rule: evenodd;"/>
+			<text x="469.22705078125" y="180" style="font-family: Mono; font-size: 7px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,360) scale(1,-1)">USB</text>
+		</g>
+	</g>
+</svg>

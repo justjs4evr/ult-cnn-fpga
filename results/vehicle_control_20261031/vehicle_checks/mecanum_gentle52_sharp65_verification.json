@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-31",
+  "profile": "vehicle_config_mecanum_gentle52_sharp65.json",
+  "run": "supervised_cnn_20261031T123148_610665Z",
+  "requested_observation_seconds": 5,
+  "sharp_left_segment_passage_confirmed_by_user": true,
+  "valid_FPGA_frames": 16,
+  "CRC_errors": 0,
+  "motor_ACK_commands": 35,
+  "STOP_ACK_verified": true,
+  "outputs_acknowledged": {
+    "sharp_left_30_65": 10,
+    "left_33_52": 8,
+    "slow_straight_40_40": 3,
+    "straight_42_42": 14
+  },
+  "followup_10_second_run": {
+    "run": "supervised_cnn_20261031T123424_288322Z",
+    "protocol_and_stop_passed": true,
+    "lane_keeping_passed": false,
+    "user_observation": "차선을 벗어났음. 차선 중앙 추종을 기본으로 하고 CNN을 보조로 사용하는 방식 요청."
+  },
+  "opposite_sharp_corner_verified": false,
+  "isolated_gentle_curve_verified": false,
+  "full_course_verified": false,
+  "default_profile_changed": false
+}

@@ -1,0 +1,64 @@
+# --- Gowin build outputs ---
+impl/
+**/impl/
+*.fs
+*.gprj.user
+*.gao
+*.gvio
+
+# --- Simulation / verification outputs (archived evidence lives in results/ and verification/logs/) ---
+verification/out/
+*.vvp
+*.vcd
+*.fst
+
+# --- Arduino / ESP32 / PlatformIO build outputs ---
+.pio/
+build/
+*.elf
+*.map
+*.ino.bin
+*.ino.hex
+*.merged.bin
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Webots runtime ---
+**/controllers/*/auto_collection_job_*.json
+**/controllers/*/auto_collection_status*.json
+webots_runs/
+
+# --- Datasets (available on request; see README) ---
+data/
+dataset/
+main_classified_images/
+*.zip
+
+# --- Logs: ignore ad-hoc logs, keep archived result/report logs ---
+*.log
+!results/**/*.log
+!fpga/reports/**/*.log
+!verification/logs/**/*.log
+
+# --- Secrets / local environment ---
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+secrets.*
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Paper (kept out of the repository for now) ---
+paper/

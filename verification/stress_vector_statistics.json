@@ -1,0 +1,23 @@
+{
+  "legacy_conv1_mac_abs_max": 228052992,
+  "legacy_conv1_abs_max_before_clip": 13920,
+  "legacy_conv1_saturated": 0,
+  "legacy_conv2_mac_abs_max": 955611984,
+  "legacy_conv2_abs_max_before_clip": 28478,
+  "legacy_conv2_saturated": 0,
+  "fc1_mac_abs_max": 1306528672,
+  "fc1_abs_max_before_clip": 7678,
+  "fc1_saturated": 0,
+  "fc2_mac_abs_max": 70197274,
+  "fc2_abs_max_before_clip": 8582,
+  "fc2_saturated": 0,
+  "context_conv1_mac_abs_max": 228052992,
+  "context_conv1_abs_max_before_clip": 13920,
+  "context_conv1_saturated": 0,
+  "context_conv2_mac_abs_max": 955611984,
+  "context_conv2_abs_max_before_clip": 28478,
+  "context_conv2_saturated": 0,
+  "context_head_mac_abs_max": 660482453,
+  "context_head_abs_max_before_clip": 80934,
+  "context_head_saturated": 0
+}

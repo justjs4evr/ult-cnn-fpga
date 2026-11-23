@@ -1,0 +1,374 @@
+{
+  "status": "passed",
+  "platform": "Linux-6.18.34+rpt-rpi-v8-aarch64-with-glibc2.41",
+  "python": "3.13.5",
+  "opencv": "5.0.0",
+  "numpy": "2.2.4",
+  "cpu_cores": 4,
+  "opencl_enabled": false,
+  "model_sha256": "38d7ef38f8baa152f8e796d3553065731b4009328e7fa890412f332e7ce1960d",
+  "benchmark_script_sha256": "f21348e23b73c87cbf94f838c05e8aaea39ecafb44081d95a7052a8b66220f10",
+  "context_activate_probability": 0.9446295628547668,
+  "context_activate_logit": 2.836747027876608,
+  "electrical_condition": "Tang remained powered from Pi USB and ran inference in both CPU and receiver conditions",
+  "state_before": {
+    "throttled": "throttled=0x50000",
+    "temperature": "temp=41.3'C",
+    "cpu_frequency_khz": {
+      "cpu3": 1400000,
+      "cpu1": 1400000,
+      "cpu2": 1400000,
+      "cpu0": 1400000
+    },
+    "load_average": [
+      0.02392578125,
+      0.2509765625,
+      0.18701171875
+    ]
+  },
+  "motor_port_opened": false,
+  "camera_opened": false,
+  "scope": "Same weights, dual preprocessed tensors. CPU=float32 OpenCV DNN; FPGA=signed16 fixed point.",
+  "cpu_tests": [
+    {
+      "threads": 1,
+      "validated_outputs": [
+        {
+          "input": "class_left",
+          "raw_class": 1,
+          "context_logit": -17.287853240966797,
+          "torch_logit_max_abs_error": 4.76837158203125e-06,
+          "torch_context_abs_error": 1.33514404296875e-05
+        },
+        {
+          "input": "class_right",
+          "raw_class": 2,
+          "context_logit": -34.642578125,
+          "torch_logit_max_abs_error": 1.043081283569336e-06,
+          "torch_context_abs_error": 0.0
+        },
+        {
+          "input": "class_sharp_left",
+          "raw_class": 3,
+          "context_logit": -9.866860389709473,
+          "torch_logit_max_abs_error": 1.9073486328125e-06,
+          "torch_context_abs_error": 2.47955322265625e-05
+        },
+        {
+          "input": "class_sharp_right",
+          "raw_class": 4,
+          "context_logit": -14.77944564819336,
+          "torch_logit_max_abs_error": 4.76837158203125e-06,
+          "torch_context_abs_error": 9.5367431640625e-07
+        },
+        {
+          "input": "class_stop",
+          "raw_class": 5,
+          "context_logit": -23.671192169189453,
+          "torch_logit_max_abs_error": 2.0563602447509766e-06,
+          "torch_context_abs_error": 1.52587890625e-05
+        },
+        {
+          "input": "class_straight",
+          "raw_class": 0,
+          "context_logit": -15.709637641906738,
+          "torch_logit_max_abs_error": 2.384185791015625e-06,
+          "torch_context_abs_error": 9.5367431640625e-06
+        },
+        {
+          "input": "context_clear",
+          "raw_class": 5,
+          "context_logit": -0.0982513427734375,
+          "torch_logit_max_abs_error": 1.6689300537109375e-06,
+          "torch_context_abs_error": 3.769993782043457e-06
+        },
+        {
+          "input": "crossing_activate",
+          "raw_class": 5,
+          "context_logit": 4.6701459884643555,
+          "torch_logit_max_abs_error": 1.1920928955078125e-06,
+          "torch_context_abs_error": 1.2874603271484375e-05
+        },
+        {
+          "input": "stress_border",
+          "raw_class": 3,
+          "context_logit": -39.509666442871094,
+          "torch_logit_max_abs_error": 3.337860107421875e-06,
+          "torch_context_abs_error": 0.0
+        },
+        {
+          "input": "stress_checker",
+          "raw_class": 1,
+          "context_logit": 12.72567367553711,
+          "torch_logit_max_abs_error": 1.430511474609375e-06,
+          "torch_context_abs_error": 5.7220458984375e-06
+        },
+        {
+          "input": "stress_random",
+          "raw_class": 1,
+          "context_logit": 1.6201820373535156,
+          "torch_logit_max_abs_error": 5.9604644775390625e-06,
+          "torch_context_abs_error": 7.748603820800781e-06
+        },
+        {
+          "input": "stress_white",
+          "raw_class": 1,
+          "context_logit": 35.499908447265625,
+          "torch_logit_max_abs_error": 9.5367431640625e-06,
+          "torch_context_abs_error": 6.103515625e-05
+        },
+        {
+          "input": "stress_zero",
+          "raw_class": 1,
+          "context_logit": -10.253870964050293,
+          "torch_logit_max_abs_error": 4.991888999938965e-07,
+          "torch_context_abs_error": 9.5367431640625e-07
+        }
+      ],
+      "runs": [
+        {
+          "repeat": 1,
+          "iterations": 343,
+          "wall_seconds": 3.005294047999996,
+          "process_cpu_seconds": 3.003887615,
+          "cpu_ms_per_frame": 8.757689839650146,
+          "one_core_cpu_percent": 99.9532014845292,
+          "four_core_capacity_percent": 24.9883003711323,
+          "inference_ms": {
+            "mean": 7.409568026239067,
+            "median": 7.320198,
+            "p95": 7.4364176,
+            "p99": 8.757479579999993,
+            "maximum": 28.073714
+          },
+          "state_before": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=40.8'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.02392578125,
+              0.2509765625,
+              0.18701171875
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.1025390625,
+              0.263671875,
+              0.19140625
+            ]
+          }
+        },
+        {
+          "repeat": 2,
+          "iterations": 345,
+          "wall_seconds": 3.006726879000041,
+          "process_cpu_seconds": 3.006287352,
+          "cpu_ms_per_frame": 8.713876382608696,
+          "one_core_cpu_percent": 99.98538187811101,
+          "four_core_capacity_percent": 24.996345469527753,
+          "inference_ms": {
+            "mean": 7.363483542028986,
+            "median": 7.321917,
+            "p95": 7.4383542,
+            "p99": 8.904444120000003,
+            "maximum": 9.873737
+          },
+          "state_before": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=41.3'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.1025390625,
+              0.263671875,
+              0.19140625
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=42.4'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.1748046875,
+              0.2763671875,
+              0.19580078125
+            ]
+          }
+        },
+        {
+          "repeat": 3,
+          "iterations": 345,
+          "wall_seconds": 3.0066882600000326,
+          "process_cpu_seconds": 3.005876571000001,
+          "cpu_ms_per_frame": 8.71268571304348,
+          "one_core_cpu_percent": 99.97300388567612,
+          "four_core_capacity_percent": 24.99325097141903,
+          "inference_ms": {
+            "mean": 7.362145084057971,
+            "median": 7.322906,
+            "p95": 7.4587188,
+            "p99": 8.91866268,
+            "maximum": 9.322955
+          },
+          "state_before": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=41.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.1748046875,
+              0.2763671875,
+              0.19580078125
+            ]
+          },
+          "state_after": {
+            "throttled": "throttled=0x50000",
+            "temperature": "temp=42.9'C",
+            "cpu_frequency_khz": {
+              "cpu3": 1400000,
+              "cpu1": 1400000,
+              "cpu2": 1400000,
+              "cpu0": 1400000
+            },
+            "load_average": [
+              0.1748046875,
+              0.2763671875,
+              0.19580078125
+            ]
+          }
+        }
+      ],
+      "median_run_mean_inference_ms": 7.363483542028986,
+      "median_cpu_ms_per_frame": 8.713876382608696
+    }
+  ],
+  "timestamp_utc": "2026-10-31T21:40:29Z",
+  "paced_CPU": {
+    "frames": 32,
+    "requested_interval_seconds": 0.31515005724468076,
+    "wall_seconds": 10.000134618999994,
+    "process_cpu_seconds": 0.4540949990000005,
+    "cpu_ms_per_result": 14.190468718750015,
+    "one_core_cpu_percent": 4.54088886100825,
+    "inference_ms": {
+      "mean": 12.18419434375,
+      "p95": 15.63060735,
+      "maximum": 19.520128
+    },
+    "state_before": {
+      "throttled": "throttled=0x50000",
+      "temperature": "temp=42.9'C",
+      "cpu_frequency_khz": {
+        "cpu3": 1400000,
+        "cpu1": 1400000,
+        "cpu2": 1400000,
+        "cpu0": 1400000
+      },
+      "load_average": [
+        0.1748046875,
+        0.2763671875,
+        0.19580078125
+      ]
+    },
+    "state_after": {
+      "throttled": "throttled=0x50000",
+      "temperature": "temp=40.8'C",
+      "cpu_frequency_khz": {
+        "cpu3": 600000,
+        "cpu1": 600000,
+        "cpu2": 600000,
+        "cpu0": 600000
+      },
+      "load_average": [
+        0.1474609375,
+        0.2666015625,
+        0.19287109375
+      ]
+    },
+    "scope": "Single-thread DNN + argmax/context activation, paced to observed FPGA result interval; excludes capture and UNO"
+  },
+  "FPGA_receiver_only": {
+    "wall_seconds": 10.037379928999997,
+    "process_cpu_seconds": 0.0691187890000009,
+    "valid_frames": 32,
+    "CRC_errors": 0,
+    "rejected": 0,
+    "cpu_ms_per_result": 2.159962156250028,
+    "one_core_cpu_percent": 0.6886138562943394,
+    "state_before": {
+      "throttled": "throttled=0x50000",
+      "temperature": "temp=40.8'C",
+      "cpu_frequency_khz": {
+        "cpu3": 1400000,
+        "cpu1": 1400000,
+        "cpu2": 1400000,
+        "cpu0": 1400000
+      },
+      "load_average": [
+        0.1474609375,
+        0.2666015625,
+        0.19287109375
+      ]
+    },
+    "state_after": {
+      "throttled": "throttled=0x50000",
+      "temperature": "temp=39.7'C",
+      "cpu_frequency_khz": {
+        "cpu3": 600000,
+        "cpu1": 600000,
+        "cpu2": 600000,
+        "cpu0": 600000
+      },
+      "load_average": [
+        0.11376953125,
+        0.2529296875,
+        0.1884765625
+      ]
+    },
+    "motor_port_opened": false,
+    "scope": "Pi receiver and decoder only; excludes UNO and logging IO"
+  },
+  "state_after": {
+    "throttled": "throttled=0x50000",
+    "temperature": "temp=39.7'C",
+    "cpu_frequency_khz": {
+      "cpu3": 600000,
+      "cpu1": 600000,
+      "cpu2": 600000,
+      "cpu0": 600000
+    },
+    "load_average": [
+      0.11376953125,
+      0.2529296875,
+      0.1884765625
+    ]
+  },
+  "current_power_or_throttle_seen": false
+}

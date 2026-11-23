@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "20261031T012330Z",
+  "operation": 37,
+  "programming_and_readback_passed": true,
+  "bitstream_sha256": "65150b3cf6f58d8474c640959b46e0c9432ae4f189e427e9e2f2fe74660663f3",
+  "test_report": "C:\\AICAR\\ULT_CNN\\direct_link_20261031\\runs\\20261031_102155_709187\\report.json",
+  "power_cycle_verified": true,
+  "log": "direct_flash_20261031T012306Z.log",
+  "power_cycle_evidence": "user cycled both power supplies, then observe read FPGA only; no start command or pixel transmission"
+}

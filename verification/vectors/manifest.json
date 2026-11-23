@@ -1,0 +1,67 @@
+[
+  {
+    "name": "class_stop",
+    "path": "vectors\\class_stop",
+    "source": "C:\\AICAR\\main_classified_images\\crossroads\\data_c_1 (10).jpg"
+  },
+  {
+    "name": "class_left",
+    "path": "vectors\\class_left",
+    "source": "C:\\AICAR\\main_classified_images\\gentle_left\\datal1 (105).jpg"
+  },
+  {
+    "name": "class_right",
+    "path": "vectors\\class_right",
+    "source": "C:\\AICAR\\main_classified_images\\gentle_right\\datar1 (1013).jpg"
+  },
+  {
+    "name": "class_sharp_left",
+    "path": "vectors\\class_sharp_left",
+    "source": "C:\\AICAR\\main_classified_images\\sharp_left\\datasl1 (1004).jpg"
+  },
+  {
+    "name": "class_sharp_right",
+    "path": "vectors\\class_sharp_right",
+    "source": "C:\\AICAR\\main_classified_images\\sharp_right\\datasr2 (10006).jpg"
+  },
+  {
+    "name": "class_straight",
+    "path": "vectors\\class_straight",
+    "source": "C:\\AICAR\\main_classified_images\\straight\\datast1 (102).jpg"
+  },
+  {
+    "name": "crossing_activate",
+    "path": "vectors\\crossing_activate",
+    "source": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\augmented_context_test\\candidate\\eastbound_o+00_h+00\\0001_stop.png"
+  },
+  {
+    "name": "context_clear",
+    "path": "vectors\\context_clear",
+    "source": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\dense_teacher_route\\teacher\\original_start\\0002_stop.png"
+  },
+  {
+    "name": "stress_zero",
+    "path": "vectors/stress_zero",
+    "source": "synthetic diagnostic, not a labelled driving image"
+  },
+  {
+    "name": "stress_white",
+    "path": "vectors/stress_white",
+    "source": "synthetic diagnostic, not a labelled driving image"
+  },
+  {
+    "name": "stress_checker",
+    "path": "vectors/stress_checker",
+    "source": "synthetic diagnostic, not a labelled driving image"
+  },
+  {
+    "name": "stress_random",
+    "path": "vectors/stress_random",
+    "source": "synthetic diagnostic, not a labelled driving image"
+  },
+  {
+    "name": "stress_border",
+    "path": "vectors/stress_border",
+    "source": "synthetic diagnostic, not a labelled driving image"
+  }
+]

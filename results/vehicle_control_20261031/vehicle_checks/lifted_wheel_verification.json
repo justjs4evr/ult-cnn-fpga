@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-31",
+  "motor_power_current_state": "off, confirmed by user after bench completion",
+  "individual_mapping": {
+    "front_left": {
+      "physical_position_user_confirmed": true,
+      "trial_PWM": 50,
+      "pulse_seconds": 0.4,
+      "evidence": [
+        "wheel_20261031T034110_058563Z",
+        "wheel_20261031T034113_616917Z"
+      ]
+    },
+    "rear_left": {
+      "physical_position_user_confirmed": true,
+      "trial_PWM": 50,
+      "pulse_seconds": 0.4,
+      "evidence": [
+        "wheel_20261031T034151_244278Z",
+        "wheel_20261031T034154_835261Z"
+      ]
+    },
+    "front_right": {
+      "physical_position_user_confirmed": true,
+      "trial_PWM": 50,
+      "pulse_seconds": 0.4,
+      "evidence": [
+        "wheel_20261031T034238_557593Z",
+        "wheel_20261031T034242_156833Z"
+      ]
+    },
+    "rear_right": {
+      "physical_position_user_confirmed": true,
+      "trial_PWM": 50,
+      "pulse_seconds": 0.4,
+      "evidence": [
+        "wheel_20261031T034311_956433Z",
+        "wheel_20261031T034315_517320Z"
+      ]
+    }
+  },
+  "lifted_outputs": {
+    "straight": {
+      "left_PWM": 50,
+      "right_PWM": 50,
+      "observed_with_wheels_lifted": true,
+      "ground_turn_or_speed_verified": false,
+      "evidence": [
+        "bench_20261031T034346_647563Z",
+        "bench_20261031T034350_295333Z"
+      ]
+    },
+    "slowdown_candidate": {
+      "left_PWM": 40,
+      "right_PWM": 40,
+      "observed_with_wheels_lifted": true,
+      "ground_turn_or_speed_verified": false,
+      "evidence": [
+        "bench_20261031T034728_901445Z",
+        "bench_20261031T034732_678796Z"
+      ]
+    },
+    "left": {
+      "left_PWM": 40,
+      "right_PWM": 50,
+      "observed_with_wheels_lifted": true,
+      "ground_turn_or_speed_verified": false,
+      "evidence": [
+        "bench_20261031T034904_110235Z",
+        "bench_20261031T034907_808359Z"
+      ]
+    },
+    "right": {
+      "left_PWM": 50,
+      "right_PWM": 40,
+      "observed_with_wheels_lifted": true,
+      "ground_turn_or_speed_verified": false,
+      "evidence": [
+        "bench_20261031T035016_229997Z",
+        "bench_20261031T035019_988907Z"
+      ]
+    },
+    "sharp_left": {
+      "left_PWM": 0,
+      "right_PWM": 50,
+      "observed_with_wheels_lifted": true,
+      "ground_turn_or_speed_verified": false,
+      "evidence": [
+        "bench_20261031T035057_170672Z",
+        "bench_20261031T035100_984545Z"
+      ]
+    },
+    "sharp_right": {
+      "left_PWM": 50,
+      "right_PWM": 0,
+      "observed_with_wheels_lifted": true,
+      "ground_turn_or_speed_verified": false,
+      "evidence": [
+        "bench_20261031T035128_169430Z",
+        "bench_20261031T035131_865760Z"
+      ]
+    }
+  },
+  "startup_observations": {
+    "20": "all almost motionless",
+    "35": "front-left did not start, other three moved",
+    "40": "all four started and stopped",
+    "50": "all four qualitatively similar and stopped in latest pair"
+  },
+  "lowest_all_wheel_start_PWM_observed_in_sampled_tests": 40,
+  "exact_start_threshold_measured": false,
+  "cold_start_repeatability_verified": false,
+  "RPM_or_linear_speed_measured": false,
+  "ground_load_test_verified": false,
+  "lifted_wheel_phase_completed": true,
+  "calibration_verified": false,
+  "earlier_front_rear_difference_consistently_reproduced": false,
+  "earlier_front_rear_difference_root_cause_identified": false,
+  "next_step": "Manual short ground-load straight/slowdown/turn/stop checks under a separately confirmed clear test setup. No autonomous drive enabled."
+}

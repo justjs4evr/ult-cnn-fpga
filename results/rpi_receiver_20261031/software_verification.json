@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "fragmentation/noise/CRC recovery",
+    "six-class validation",
+    "STOP slowdown without full stop",
+    "context activation and 1.5s hold",
+    "stale inhibit",
+    "model/preprocess/flag/age rejection",
+    "duplicate/order/tick rejection",
+    "counter wrap"
+  ],
+  "motors_driven": false,
+  "hardware_used": false
+}

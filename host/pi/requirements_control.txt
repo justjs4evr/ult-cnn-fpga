@@ -1,0 +1,2 @@
+pyserial==3.5
+# Install pyserial with pip (the original handoff bundled a vendored copy).

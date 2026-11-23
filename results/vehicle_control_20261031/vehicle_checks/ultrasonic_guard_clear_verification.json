@@ -1,0 +1,15 @@
+{
+  "port": "/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0",
+  "motor_power_expected_off": false,
+  "motor_power_confirmed_on": true,
+  "capability": [
+    "C",
+    "2",
+    "W4"
+  ],
+  "obstacle_arm_rejected": false,
+  "positive_drive_sent": true,
+  "stop_ack": true,
+  "error": null,
+  "status": "passed"
+}

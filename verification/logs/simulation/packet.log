@@ -1,0 +1,3 @@
+
+PASS packet 36 bytes including CRC and ready stalls
+C:\AICAR\ULT_CNN\fpga_release_20261025\rtl\packet_tb.sv:32: $finish called at 580000 (1ps)

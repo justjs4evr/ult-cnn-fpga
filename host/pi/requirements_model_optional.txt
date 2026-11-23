@@ -1,0 +1,4 @@
+numpy
+Pillow
+torch
+# Optional: CPU photo prediction/export only. Not required for FPGA-driven car control.

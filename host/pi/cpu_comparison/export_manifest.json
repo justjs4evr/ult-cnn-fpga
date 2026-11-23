@@ -1,0 +1,33 @@
+{
+  "checkpoint_sha256": "39eac826632a58d950e42ebe957884fec1a8313f7eb1873c95831eff1e62d609",
+  "onnx_sha256": "38d7ef38f8baa152f8e796d3553065731b4009328e7fa890412f332e7ce1960d",
+  "fixtures_sha256": "9614a4b818d6089a2dda67cf910b0b2b9107b7c6ba01b8aac4f2b9ff4e5c40a7",
+  "parameters": 2977,
+  "fixtures": 13,
+  "inputs": [
+    "1x1x16x16",
+    "1x1x64x64"
+  ],
+  "outputs": [
+    "raw6logits",
+    "context_logit"
+  ],
+  "format": "float32; shared convolution weights",
+  "source_vector_names": [
+    "class_left",
+    "class_right",
+    "class_sharp_left",
+    "class_sharp_right",
+    "class_stop",
+    "class_straight",
+    "context_clear",
+    "crossing_activate",
+    "stress_border",
+    "stress_checker",
+    "stress_random",
+    "stress_white",
+    "stress_zero"
+  ],
+  "opset": 13,
+  "scope": "Same model and preprocessed inputs; excludes capture, preprocessing and transport."
+}

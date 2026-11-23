@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="487.27559055118115" height="202" preserveAspectRatio="xMinYMin meet" viewBox="0 0 487 202" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="487.27559055118115" height="202"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-202)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="85.8125" y="148" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,296) scale(1,-1)">straight</text>
+			<rect x="130" y="141" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(38%,38%,38%); fill-rule: evenodd;"/>
+			<text x="145.6015625" y="148" style="font-family: Mono; font-size: 8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,296) scale(1,-1)">92</text>
+			<rect x="170" y="141" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,98%,98%); fill-rule: evenodd;"/>
+			<text x="187.80078125" y="148" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,296) scale(1,-1)">2</text>
+			<rect x="210" y="141" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="227.80078125" y="148" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,296) scale(1,-1)">6</text>
+			<rect x="250" y="141" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="267.80078125" y="148" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,296) scale(1,-1)">0</text>
+			<rect x="290" y="141" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="307.80078125" y="148" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,296) scale(1,-1)">0</text>
+			<rect x="330" y="141" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,91%,91%); fill-rule: evenodd;"/>
+			<text x="345.6015625" y="148" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,296) scale(1,-1)">13</text>
+			<text x="103.40625" y="124" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,248) scale(1,-1)">left</text>
+			<rect x="130" y="117" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(97%,97%,97%); fill-rule: evenodd;"/>
+			<text x="147.80078125" y="124" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,248) scale(1,-1)">4</text>
+			<rect x="170" y="117" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(39%,39%,39%); fill-rule: evenodd;"/>
+			<text x="185.6015625" y="124" style="font-family: Mono; font-size: 8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,248) scale(1,-1)">85</text>
+			<rect x="210" y="117" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(97%,97%,97%); fill-rule: evenodd;"/>
+			<text x="227.80078125" y="124" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,248) scale(1,-1)">4</text>
+			<rect x="250" y="117" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,98%,98%); fill-rule: evenodd;"/>
+			<text x="267.80078125" y="124" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,248) scale(1,-1)">2</text>
+			<rect x="290" y="117" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="307.80078125" y="124" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,248) scale(1,-1)">0</text>
+			<rect x="330" y="117" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(92%,92%,92%); fill-rule: evenodd;"/>
+			<text x="345.6015625" y="124" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,248) scale(1,-1)">10</text>
+			<text x="99.0078125" y="100" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">right</text>
+			<rect x="130" y="93" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(97%,97%,97%); fill-rule: evenodd;"/>
+			<text x="147.80078125" y="100" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">6</text>
+			<rect x="170" y="93" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(95%,95%,95%); fill-rule: evenodd;"/>
+			<text x="185.6015625" y="100" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">11</text>
+			<rect x="210" y="93" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(38%,38%,38%); fill-rule: evenodd;"/>
+			<text x="223.40234375" y="100" style="font-family: Mono; font-size: 8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,200) scale(1,-1)">145</text>
+			<rect x="250" y="93" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="267.80078125" y="100" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">0</text>
+			<rect x="290" y="93" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(99%,99%,99%); fill-rule: evenodd;"/>
+			<text x="307.80078125" y="100" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">1</text>
+			<rect x="330" y="93" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,94%,94%); fill-rule: evenodd;"/>
+			<text x="345.6015625" y="100" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,200) scale(1,-1)">14</text>
+			<text x="90.2109375" y="76" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,152) scale(1,-1)">sharp L</text>
+			<rect x="130" y="69" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(99%,99%,99%); fill-rule: evenodd;"/>
+			<text x="147.80078125" y="76" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,152) scale(1,-1)">7</text>
+			<rect x="170" y="69" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,98%,98%); fill-rule: evenodd;"/>
+			<text x="185.6015625" y="76" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,152) scale(1,-1)">13</text>
+			<rect x="210" y="69" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(99%,99%,99%); fill-rule: evenodd;"/>
+			<text x="227.80078125" y="76" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,152) scale(1,-1)">2</text>
+			<rect x="250" y="69" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(37%,37%,37%); fill-rule: evenodd;"/>
+			<text x="263.40234375" y="76" style="font-family: Mono; font-size: 8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,152) scale(1,-1)">533</text>
+			<rect x="290" y="69" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,91%,91%); fill-rule: evenodd;"/>
+			<text x="305.6015625" y="76" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,152) scale(1,-1)">71</text>
+			<rect x="330" y="69" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,98%,98%); fill-rule: evenodd;"/>
+			<text x="345.6015625" y="76" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,152) scale(1,-1)">12</text>
+			<text x="90.2109375" y="52" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,104) scale(1,-1)">sharp R</text>
+			<rect x="130" y="45" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,98%,98%); fill-rule: evenodd;"/>
+			<text x="145.6015625" y="52" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,104) scale(1,-1)">20</text>
+			<rect x="170" y="45" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(99%,99%,99%); fill-rule: evenodd;"/>
+			<text x="187.80078125" y="52" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,104) scale(1,-1)">1</text>
+			<rect x="210" y="45" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,96%,96%); fill-rule: evenodd;"/>
+			<text x="225.6015625" y="52" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,104) scale(1,-1)">54</text>
+			<rect x="250" y="45" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(95%,95%,95%); fill-rule: evenodd;"/>
+			<text x="265.6015625" y="52" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,104) scale(1,-1)">82</text>
+			<rect x="290" y="45" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(34%,34%,34%); fill-rule: evenodd;"/>
+			<text x="301.203125" y="52" style="font-family: Mono; font-size: 8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,104) scale(1,-1)">1145</text>
+			<rect x="330" y="45" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(99%,99%,99%); fill-rule: evenodd;"/>
+			<text x="345.6015625" y="52" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,104) scale(1,-1)">12</text>
+			<text x="103.40625" y="28" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">stop</text>
+			<rect x="130" y="21" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,98%,98%); fill-rule: evenodd;"/>
+			<text x="147.80078125" y="28" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">1</text>
+			<rect x="170" y="21" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(97%,97%,97%); fill-rule: evenodd;"/>
+			<text x="187.80078125" y="28" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">2</text>
+			<rect x="210" y="21" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="227.80078125" y="28" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">0</text>
+			<rect x="250" y="21" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,98%,98%); fill-rule: evenodd;"/>
+			<text x="267.80078125" y="28" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">1</text>
+			<rect x="290" y="21" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="307.80078125" y="28" style="font-family: Mono; font-size: 8px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,56) scale(1,-1)">0</text>
+			<rect x="330" y="21" width="40" height="24" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(30%,30%,30%); fill-rule: evenodd;"/>
+			<text x="345.6015625" y="28" style="font-family: Mono; font-size: 8px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,56) scale(1,-1)">55</text>
+			<text x="133.2859375" y="9" style="font-family: Mono; font-size: 7.6px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,18) scale(1,-1)">straight</text>
+			<text x="181.64296875" y="9" style="font-family: Mono; font-size: 7.6px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,18) scale(1,-1)">left</text>
+			<text x="219.5537109375" y="9" style="font-family: Mono; font-size: 7.6px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,18) scale(1,-1)">right</text>
+			<text x="255.3751953125" y="9" style="font-family: Mono; font-size: 7.6px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,18) scale(1,-1)">sharp L</text>
+			<text x="295.3751953125" y="9" style="font-family: Mono; font-size: 7.6px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,18) scale(1,-1)">sharp R</text>
+			<text x="341.64296875" y="9" style="font-family: Mono; font-size: 7.6px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,18) scale(1,-1)">stop</text>
+			<text x="214.949951171875" y="184" style="font-family: Mono; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,368) scale(1,-1)">Predicted class</text>
+			<text x="15" y="93" style="font-family: Mono; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,186) scale(1,-1)">True</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "threshold": 0.9446295628547668,
+  "development_recall": 0.9285714030265808,
+  "parameters": 2977,
+  "original_cnn_frozen": true,
+  "limitations": "Experimental full-frame context pass; FPGA export requires additional implementation. Same-map pose evaluation."
+}

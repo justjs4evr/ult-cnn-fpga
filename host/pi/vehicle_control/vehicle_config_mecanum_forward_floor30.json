@@ -1,0 +1,18 @@
+{
+  "protocol": "ULTDRV1",
+  "wheel_type": "mecanum",
+  "cruise_pwm": 42,
+  "slow_pwm": 40,
+  "turn_pwm": 55,
+  "gentle_turn_pwm": 55,
+  "sharp_turn_pwm": 60,
+  "slow_gentle_turn_pwm": 55,
+  "slow_sharp_turn_pwm": 60,
+  "gentle_inner_percent": 50,
+  "sharp_inner_percent": 43,
+  "inner_pwm_floor": 30,
+  "calibration_verified": false,
+  "lifted_wheel_mapping_verified": true,
+  "ground_load_test_verified": false,
+  "note": "Supervised CNN candidate after user confirmed60/30 fixed right turn moved forward and reduced lateral drift (ground_20261031T121033_317498Z). Straight42/42, STOP40/40, gentle55/30, sharp60/30. Minimum inner target30; actual wheel RPM not measured. No reverse or zero-side maneuvers. Full route passage remains unverified."
+}

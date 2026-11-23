@@ -1,0 +1,17 @@
+{
+  "status": "core_synthesis_completed",
+  "device": "GW2AR-LV18QN88C8/I7",
+  "rtl_sha256": "cdd615a5a7f0059d29589c5b7c3d558b075c85bb4bc8f1d53ed1650e43089627",
+  "resources": {
+    "Logic": "2077(1498 LUT, 531 ALU, 8 RAM16) / 20736",
+    "Register": "220 / 15750",
+    "BSRAM": "40 / 46"
+  },
+  "synthesis_fmax_estimate_mhz": 25.325,
+  "tool_default_constraint_mhz": 100,
+  "timing_closed": false,
+  "place_and_route_completed": false,
+  "bitstream_generated": false,
+  "report": "C:\\AICAR\\ULT_CNN\\fpga_release_20261025\\impl\\gwsynthesis\\ult_context_core_syn.rpt.html",
+  "limitation": "Pre-layout core estimate. Default 100MHz constraint is not met. A 20MHz core clock is a proposal requiring PLL and full-design routed timing validation."
+}

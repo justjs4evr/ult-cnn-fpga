@@ -1,0 +1,506 @@
+{
+  "status": "passed",
+  "port": "COM7",
+  "baud": 460800,
+  "results": [
+    {
+      "label": "class_stop",
+      "frame_id": 1,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.828,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "class_left",
+      "frame_id": 2,
+      "status": "passed",
+      "expected": {
+        "raw_class": 1,
+        "context_logit_q": -35367,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 1,
+        "context_logit_q": -35367,
+        "flags": 1
+      },
+      "raw_class_name": "left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.857,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "class_right",
+      "frame_id": 3,
+      "status": "passed",
+      "expected": {
+        "raw_class": 2,
+        "context_logit_q": -70935,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 2,
+        "context_logit_q": -70935,
+        "flags": 1
+      },
+      "raw_class_name": "right",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 129.467,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "class_sharp_left",
+      "frame_id": 4,
+      "status": "passed",
+      "expected": {
+        "raw_class": 3,
+        "context_logit_q": -20194,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 3,
+        "context_logit_q": -20194,
+        "flags": 1
+      },
+      "raw_class_name": "sharp_left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.744,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "class_sharp_right",
+      "frame_id": 5,
+      "status": "passed",
+      "expected": {
+        "raw_class": 4,
+        "context_logit_q": -30239,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 4,
+        "context_logit_q": -30239,
+        "flags": 1
+      },
+      "raw_class_name": "sharp_right",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127170,
+      "pc_round_trip_ms": 128.747,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "class_straight",
+      "frame_id": 6,
+      "status": "passed",
+      "expected": {
+        "raw_class": 0,
+        "context_logit_q": -32140,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 0,
+        "context_logit_q": -32140,
+        "flags": 1
+      },
+      "raw_class_name": "straight",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.948,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "crossing_activate",
+      "frame_id": 7,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": 9568,
+        "flags": 49
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": 9568,
+        "flags": 49
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.941,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "context_clear",
+      "frame_id": 8,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": -191,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": -191,
+        "flags": 1
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.726,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "stress_zero",
+      "frame_id": 9,
+      "status": "passed",
+      "expected": {
+        "raw_class": 1,
+        "context_logit_q": -21005,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 1,
+        "context_logit_q": -21005,
+        "flags": 1
+      },
+      "raw_class_name": "left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127170,
+      "pc_round_trip_ms": 129.531,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "stress_white",
+      "frame_id": 10,
+      "status": "passed",
+      "expected": {
+        "raw_class": 1,
+        "context_logit_q": 72718,
+        "flags": 49
+      },
+      "actual": {
+        "raw_class": 1,
+        "context_logit_q": 72718,
+        "flags": 49
+      },
+      "raw_class_name": "left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.544,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "stress_checker",
+      "frame_id": 11,
+      "status": "passed",
+      "expected": {
+        "raw_class": 1,
+        "context_logit_q": 26085,
+        "flags": 49
+      },
+      "actual": {
+        "raw_class": 1,
+        "context_logit_q": 26085,
+        "flags": 49
+      },
+      "raw_class_name": "left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.74,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "stress_random",
+      "frame_id": 12,
+      "status": "passed",
+      "expected": {
+        "raw_class": 1,
+        "context_logit_q": 3320,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 1,
+        "context_logit_q": 3320,
+        "flags": 1
+      },
+      "raw_class_name": "left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.769,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "stress_border",
+      "frame_id": 13,
+      "status": "passed",
+      "expected": {
+        "raw_class": 3,
+        "context_logit_q": -80934,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 3,
+        "context_logit_q": -80934,
+        "flags": 1
+      },
+      "raw_class_name": "sharp_left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 129.0,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\main_classified_images\\crossroads\\data_c_1 (10).jpg",
+      "frame_id": 14,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127170,
+      "pc_round_trip_ms": 128.486,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\main_classified_images\\gentle_left\\datal1 (105).jpg",
+      "frame_id": 15,
+      "status": "passed",
+      "expected": {
+        "raw_class": 1,
+        "context_logit_q": -35367,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 1,
+        "context_logit_q": -35367,
+        "flags": 1
+      },
+      "raw_class_name": "left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 129.03,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\main_classified_images\\gentle_right\\datar1 (1013).jpg",
+      "frame_id": 16,
+      "status": "passed",
+      "expected": {
+        "raw_class": 2,
+        "context_logit_q": -70935,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 2,
+        "context_logit_q": -70935,
+        "flags": 1
+      },
+      "raw_class_name": "right",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 129.324,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\main_classified_images\\sharp_left\\datasl1 (1004).jpg",
+      "frame_id": 17,
+      "status": "passed",
+      "expected": {
+        "raw_class": 3,
+        "context_logit_q": -20194,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 3,
+        "context_logit_q": -20194,
+        "flags": 1
+      },
+      "raw_class_name": "sharp_left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127170,
+      "pc_round_trip_ms": 128.685,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\main_classified_images\\sharp_right\\datasr2 (10006).jpg",
+      "frame_id": 18,
+      "status": "passed",
+      "expected": {
+        "raw_class": 4,
+        "context_logit_q": -30239,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 4,
+        "context_logit_q": -30239,
+        "flags": 1
+      },
+      "raw_class_name": "sharp_right",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.716,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\main_classified_images\\straight\\datast1 (102).jpg",
+      "frame_id": 19,
+      "status": "passed",
+      "expected": {
+        "raw_class": 0,
+        "context_logit_q": -32140,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 0,
+        "context_logit_q": -32140,
+        "flags": 1
+      },
+      "raw_class_name": "straight",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.987,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\augmented_context_test\\candidate\\eastbound_o+00_h+00\\0001_stop.png",
+      "frame_id": 20,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": 9568,
+        "flags": 49
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": 9568,
+        "flags": 49
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.96,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\dense_teacher_route\\teacher\\original_start\\0002_stop.png",
+      "frame_id": 21,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": -191,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": -191,
+        "flags": 1
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127170,
+      "pc_round_trip_ms": 129.593,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "photo:C:\\main_classified_images\\gentle_left\\datal1 (2).png",
+      "frame_id": 22,
+      "status": "passed",
+      "expected": {
+        "raw_class": 1,
+        "context_logit_q": -45446,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 1,
+        "context_logit_q": -45446,
+        "flags": 1
+      },
+      "raw_class_name": "left",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 128.766,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "recovery_after_bad_crc",
+      "frame_id": 24,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 129.609,
+      "result_crc_errors": 0
+    },
+    {
+      "label": "recovery_after_truncated_packet",
+      "frame_id": 26,
+      "status": "passed",
+      "expected": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 5,
+        "context_logit_q": -48503,
+        "flags": 1
+      },
+      "raw_class_name": "stop",
+      "fpga_inference_us": 31611,
+      "fpga_first_byte_to_packet_us": 127169,
+      "pc_round_trip_ms": 129.321,
+      "result_crc_errors": 0
+    }
+  ],
+  "fault_tests": [
+    {
+      "test": "bad CRC rejected",
+      "passed": true
+    },
+    {
+      "test": "truncated packet rejected and timed out",
+      "passed": true
+    }
+  ],
+  "flash_changed": false,
+  "bitstream_sha256": "31fb7bc612744c9d0ab8f02e9b905441d579d9ede773e40f504caefb974e6169",
+  "model_sha256": "39eac826632a58d950e42ebe957884fec1a8313f7eb1873c95831eff1e62d609",
+  "scope": "Prepared PC images; preprocessing on PC, all CNN/context inference on FPGA. No real camera or motor control.",
+  "round_trip_ms": {
+    "min": 128.486,
+    "max": 129.609,
+    "mean": 128.971625
+  }
+}

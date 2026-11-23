@@ -1,0 +1,25 @@
+{
+  "protocol": "ULTDRV1",
+  "wheel_type": "mecanum",
+  "cruise_pwm": 42,
+  "slow_pwm": 40,
+  "turn_pwm": 55,
+  "gentle_turn_pwm": 55,
+  "sharp_turn_pwm": 60,
+  "slow_gentle_turn_pwm": 55,
+  "slow_sharp_turn_pwm": 60,
+  "gentle_inner_percent": 50,
+  "sharp_inner_percent": 43,
+  "inner_pwm_floor": 30,
+  "sharp_turn_decay": {
+    "boost_seconds": 0.5,
+    "relaxed_outer_pwm": 50,
+    "relaxed_inner_pwm": 40,
+    "reset_frames": 3,
+    "reset_seconds": 0.6
+  },
+  "calibration_verified": false,
+  "lifted_wheel_mapping_verified": true,
+  "ground_load_test_verified": false,
+  "note": "Supervised test candidate after excessive turning in supervised_cnn_20261031T121453_117560Z. Sharp60/30 is reduced to50/40 after0.5s of an episode. Transient label changes and sharp left/right flips do not reset the timer; require3 non-sharp live frames spanning0.6s. Current class direction remains authoritative. No reverse or zero-side output; STOP and stale/obstacle policies preserved. Actual path and speed remain unverified."
+}

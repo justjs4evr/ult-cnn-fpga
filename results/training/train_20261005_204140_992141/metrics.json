@@ -1,0 +1,464 @@
+{
+  "classes": [
+    "straight",
+    "left",
+    "right",
+    "sharp_left",
+    "sharp_right",
+    "stop"
+  ],
+  "source_class_mapping": {
+    "straight": "straight",
+    "gentle_left": "left",
+    "gentle_right": "right",
+    "sharp_left": "sharp_left",
+    "sharp_right": "sharp_right",
+    "crossroads": "stop",
+    "crosswalk": "stop"
+  },
+  "source_class_recall": {
+    "dev_frame": {
+      "crossroads": {
+        "support": 32,
+        "recall": 0.90625
+      },
+      "crosswalk": {
+        "support": 11,
+        "recall": 0.9090909090909091
+      },
+      "gentle_left": {
+        "support": 112,
+        "recall": 0.7767857142857143
+      },
+      "gentle_right": {
+        "support": 173,
+        "recall": 0.8323699421965318
+      },
+      "sharp_left": {
+        "support": 641,
+        "recall": 0.8190327613104524
+      },
+      "sharp_right": {
+        "support": 1285,
+        "recall": 0.8856031128404669
+      },
+      "straight": {
+        "support": 119,
+        "recall": 0.9327731092436975
+      }
+    },
+    "test_img": {
+      "crossroads": {
+        "support": 46,
+        "recall": 0.8695652173913043
+      },
+      "crosswalk": {
+        "support": 13,
+        "recall": 0.7692307692307693
+      },
+      "gentle_left": {
+        "support": 105,
+        "recall": 0.819047619047619
+      },
+      "gentle_right": {
+        "support": 177,
+        "recall": 0.8418079096045198
+      },
+      "sharp_left": {
+        "support": 638,
+        "recall": 0.8213166144200627
+      },
+      "sharp_right": {
+        "support": 1314,
+        "recall": 0.8797564687975646
+      },
+      "straight": {
+        "support": 113,
+        "recall": 0.8495575221238938
+      }
+    }
+  },
+  "parameter_count": 1440,
+  "preprocess_mode": "binary",
+  "mirror_augment": true,
+  "init_checkpoint": null,
+  "source_dataset": "C:\\AICAR\\main_classified_images",
+  "split_rule": "grouped_stratified_80_10_10; exact input groups stay together or are purged with test priority, including mirror equivalents when augmented",
+  "dataset_audit": {
+    "dataset": "C:\\AICAR\\main_classified_images",
+    "classes": [
+      "straight",
+      "left",
+      "right",
+      "sharp_left",
+      "sharp_right",
+      "stop"
+    ],
+    "mode": "binary",
+    "mirror_augment": true,
+    "split_layout": "auto",
+    "split_method": "grouped_stratified_80_10_10",
+    "split_counts": {
+      "train": {
+        "straight": 966,
+        "left": 870,
+        "right": 1464,
+        "sharp_left": 5138,
+        "sharp_right": 10381,
+        "stop": 350
+      },
+      "dev_frame": {
+        "straight": 119,
+        "left": 112,
+        "right": 173,
+        "sharp_left": 641,
+        "sharp_right": 1285,
+        "stop": 43
+      },
+      "test_img": {
+        "straight": 113,
+        "left": 105,
+        "right": 177,
+        "sharp_left": 638,
+        "sharp_right": 1314,
+        "stop": 59
+      }
+    },
+    "excluded_duplicates": {},
+    "input_label_conflict_groups": 0,
+    "input_label_conflict_images": 0,
+    "limitations": "Content-group stratification or explicit folders do not verify map/session independence; near duplicates may remain."
+  },
+  "excluded_duplicates": {},
+  "best_epoch": 29,
+  "best_dev_loss": 0.3973422977261738,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6334450537873966,
+      "dev_loss": 1.1339778698199015
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.1317233948511314,
+      "dev_loss": 0.8084874436717671
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.9411265601654855,
+      "dev_loss": 0.707354117107954
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8521393618584177,
+      "dev_loss": 0.6372848175720379
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.7924775574413647,
+      "dev_loss": 0.6262797420908015
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7470055566289764,
+      "dev_loss": 0.5917442585916596
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7120681805872844,
+      "dev_loss": 0.5759606587449759
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.680018501930614,
+      "dev_loss": 0.5887318922907704
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.6539867051150593,
+      "dev_loss": 0.5461561725680154
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.6257191039106831,
+      "dev_loss": 0.5542251563152581
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.6069927433982466,
+      "dev_loss": 0.5176223272318786
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5850614792485087,
+      "dev_loss": 0.5054076297269107
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.5698616690675233,
+      "dev_loss": 0.4918608853598963
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.5523781578792915,
+      "dev_loss": 0.4966375815481563
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.5375744698721637,
+      "dev_loss": 0.47540236553008475
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.5263966075460752,
+      "dev_loss": 0.46672194892225816
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.5150734553986843,
+      "dev_loss": 0.4365063856233789
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.5028703706499817,
+      "dev_loss": 0.4204880702585999
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.495642021390914,
+      "dev_loss": 0.4261287578200671
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.4847879496667486,
+      "dev_loss": 0.44704210235758063
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.478944229028042,
+      "dev_loss": 0.42018970323422766
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.47063865895885476,
+      "dev_loss": 0.4078675363443594
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.4690955283885097,
+      "dev_loss": 0.39911376881137256
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.4601917519548999,
+      "dev_loss": 0.43172772282093225
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.45325095333324933,
+      "dev_loss": 0.42801729492683027
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.44968440051624564,
+      "dev_loss": 0.41475321550912814
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.44630386344429673,
+      "dev_loss": 0.42318479243306434
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.44257714010950383,
+      "dev_loss": 0.4068508276419955
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.4371577526063599,
+      "dev_loss": 0.3973422977261738
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.4287512921890224,
+      "dev_loss": 0.40699738693599
+    }
+  ],
+  "development": {
+    "accuracy": 0.8613569321533924,
+    "macro_f1": 0.800657377162767,
+    "support": {
+      "straight": 119,
+      "left": 112,
+      "right": 173,
+      "sharp_left": 641,
+      "sharp_right": 1285,
+      "stop": 43
+    },
+    "recall": {
+      "straight": 0.9327731092436975,
+      "left": 0.7767857142857143,
+      "right": 0.8323699421965318,
+      "sharp_left": 0.8190327613104524,
+      "sharp_right": 0.8856031128404669,
+      "stop": 0.9069767441860465
+    },
+    "precision": {
+      "straight": 0.7350993377483444,
+      "left": 0.7699115044247787,
+      "right": 0.7093596059113301,
+      "sharp_left": 0.8634868421052632,
+      "sharp_right": 0.9259560618388935,
+      "stop": 0.5652173913043478
+    },
+    "f1": {
+      "straight": 0.8222222222222222,
+      "left": 0.7733333333333333,
+      "right": 0.7659574468085106,
+      "sharp_left": 0.8406725380304243,
+      "sharp_right": 0.9053301511535402,
+      "stop": 0.6964285714285714
+    },
+    "confusion_matrix": [
+      [
+        111,
+        1,
+        2,
+        0,
+        1,
+        4
+      ],
+      [
+        4,
+        87,
+        4,
+        7,
+        0,
+        10
+      ],
+      [
+        7,
+        13,
+        144,
+        0,
+        4,
+        5
+      ],
+      [
+        9,
+        12,
+        5,
+        525,
+        86,
+        4
+      ],
+      [
+        17,
+        0,
+        47,
+        76,
+        1138,
+        7
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        0,
+        39
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.8566084788029925,
+    "macro_f1": 0.7893945961103689,
+    "support": {
+      "straight": 113,
+      "left": 105,
+      "right": 177,
+      "sharp_left": 638,
+      "sharp_right": 1314,
+      "stop": 59
+    },
+    "recall": {
+      "straight": 0.8495575221238938,
+      "left": 0.819047619047619,
+      "right": 0.8418079096045198,
+      "sharp_left": 0.8213166144200627,
+      "sharp_right": 0.8797564687975646,
+      "stop": 0.847457627118644
+    },
+    "precision": {
+      "straight": 0.7007299270072993,
+      "left": 0.7288135593220338,
+      "right": 0.6651785714285714,
+      "sharp_left": 0.8704318936877077,
+      "sharp_right": 0.9307568438003221,
+      "stop": 0.6024096385542169
+    },
+    "f1": {
+      "straight": 0.768,
+      "left": 0.7713004484304933,
+      "right": 0.743142144638404,
+      "sharp_left": 0.8451612903225807,
+      "sharp_right": 0.9045383411580594,
+      "stop": 0.704225352112676
+    },
+    "confusion_matrix": [
+      [
+        96,
+        2,
+        7,
+        0,
+        1,
+        7
+      ],
+      [
+        5,
+        86,
+        4,
+        2,
+        0,
+        8
+      ],
+      [
+        6,
+        10,
+        149,
+        0,
+        2,
+        10
+      ],
+      [
+        7,
+        16,
+        4,
+        524,
+        82,
+        5
+      ],
+      [
+        21,
+        1,
+        59,
+        74,
+        1156,
+        3
+      ],
+      [
+        2,
+        3,
+        1,
+        2,
+        1,
+        50
+      ]
+    ]
+  },
+  "limitations": [
+    "Filename families are a proxy for collection source, not verified independent drives or maps.",
+    "Near-duplicate images may still cross the splits.",
+    "No physical robot camera images or driving test are included."
+  ]
+}

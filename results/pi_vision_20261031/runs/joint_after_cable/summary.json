@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "observation_seconds": 30.0,
+  "lane": {
+    "status": "completed",
+    "frames": 89,
+    "crc_errors": 0,
+    "rejected_frames": 0,
+    "startup_frames": 6,
+    "startup_crc_errors": 0
+  },
+  "vision_frames_completed": 12,
+  "vision_results_observed": 11,
+  "simultaneous_fresh_observations": 100,
+  "yolo_latency_ms": {
+    "min": 1939.504818000003,
+    "max": 2299.2675199999867,
+    "mean": 2042.6914098333336
+  },
+  "worker_forced_termination": false,
+  "worker_problem": null,
+  "motors_driven": false,
+  "motor_serial_port_opened": false,
+  "vehicle_mission_accuracy_verified": false,
+  "camera_B_angle_retest_deferred_by_user": true,
+  "yolo_model": "official COCO YOLOv5n v7.0 ONNX640",
+  "opencv_threads": 3,
+  "power_before": {
+    "raw": "throttled=0x50000",
+    "undervoltage_now": false,
+    "throttled_now": false,
+    "current_flags_clear": true
+  },
+  "power_after": {
+    "raw": "throttled=0x50005",
+    "undervoltage_now": true,
+    "throttled_now": true,
+    "current_flags_clear": false
+  },
+  "source_A": "OV5647 CSI camera on Raspberry Pi",
+  "source_B": "OV3660 -> XIAO -> Tang CNN -> USB",
+  "policy": "Observation/preview only; no mission rules or motor adapter configured"
+}

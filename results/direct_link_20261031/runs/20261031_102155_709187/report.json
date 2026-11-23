@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "port": "COM3",
+  "frames": [
+    {
+      "frame_id": 1,
+      "status": "passed",
+      "expected": {
+        "raw_class": 4,
+        "context_logit_q": -1174,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 4,
+        "context_logit_q": -1174,
+        "flags": 1
+      },
+      "class_name": "sharp_right",
+      "all_4352_pixels_equal": true,
+      "xiao_preprocess_us": 6277,
+      "direct_UART_round_trip_us": 128842,
+      "fpga_inference_us": 31611,
+      "pc_audit_elapsed_ms": 299.11
+    },
+    {
+      "frame_id": 2,
+      "status": "passed",
+      "expected": {
+        "raw_class": 4,
+        "context_logit_q": -1370,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 4,
+        "context_logit_q": -1370,
+        "flags": 1
+      },
+      "class_name": "sharp_right",
+      "all_4352_pixels_equal": true,
+      "xiao_preprocess_us": 6265,
+      "direct_UART_round_trip_us": 128674,
+      "fpga_inference_us": 31611,
+      "pc_audit_elapsed_ms": 335.053
+    },
+    {
+      "frame_id": 3,
+      "status": "passed",
+      "expected": {
+        "raw_class": 4,
+        "context_logit_q": -962,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 4,
+        "context_logit_q": -962,
+        "flags": 1
+      },
+      "class_name": "sharp_right",
+      "all_4352_pixels_equal": true,
+      "xiao_preprocess_us": 6265,
+      "direct_UART_round_trip_us": 128492,
+      "fpga_inference_us": 31611,
+      "pc_audit_elapsed_ms": 356.241
+    },
+    {
+      "frame_id": 4,
+      "status": "passed",
+      "expected": {
+        "raw_class": 4,
+        "context_logit_q": -1011,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 4,
+        "context_logit_q": -1011,
+        "flags": 1
+      },
+      "class_name": "sharp_right",
+      "all_4352_pixels_equal": true,
+      "xiao_preprocess_us": 6269,
+      "direct_UART_round_trip_us": 128320,
+      "fpga_inference_us": 31611,
+      "pc_audit_elapsed_ms": 362.919
+    },
+    {
+      "frame_id": 5,
+      "status": "passed",
+      "expected": {
+        "raw_class": 4,
+        "context_logit_q": -1430,
+        "flags": 1
+      },
+      "actual": {
+        "raw_class": 4,
+        "context_logit_q": -1430,
+        "flags": 1
+      },
+      "class_name": "sharp_right",
+      "all_4352_pixels_equal": true,
+      "xiao_preprocess_us": 6269,
+      "direct_UART_round_trip_us": 129134,
+      "fpga_inference_us": 31611,
+      "pc_audit_elapsed_ms": 365.58
+    }
+  ],
+  "PC_image_forwarding": false,
+  "motors_driven": false,
+  "scope": "PC requests an audit and verifies copied data after inference; image transfer and result acknowledgement use only the three board-to-board wires.",
+  "camera_info": {
+    "protocol": 1,
+    "width": 160,
+    "height": 120,
+    "format": "GRAY8",
+    "camera_ready": true,
+    "camera_error": 0,
+    "sensor_pid": 13920,
+    "psram_bytes": 8388608,
+    "vflip": 1,
+    "external_fpga_link_enabled": true
+  }
+}

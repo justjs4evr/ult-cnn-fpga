@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="487.27559055118115" height="77" preserveAspectRatio="xMinYMin meet" viewBox="0 0 487 77" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="487.27559055118115" height="77"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-77)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="53.860107421875" y="50" style="font-family: KR; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,100) scale(1,-1)">Pi CPU 계산</text>
+			<rect x="110" y="45" width="249.7488873554538" height="17" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="462.90889133243115" y="49" style="font-family: Mono; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,98) scale(1,-1)">4.54%</text>
+			<text x="39.37524414062499" y="20" style="font-family: KR; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,40) scale(1,-1)">FPGA 결과 수신</text>
+			<rect x="110" y="15" width="37.87376209618867" height="17" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,33%,33%); fill-rule: evenodd;"/>
+			<text x="462.90889133243115" y="19" style="font-family: Mono; font-size: 8.5px;fill: rgb(8%,8%,8%); stroke:none;" transform="translate(0,38) scale(1,-1)">0.69%</text>
+		</g>
+	</g>
+</svg>

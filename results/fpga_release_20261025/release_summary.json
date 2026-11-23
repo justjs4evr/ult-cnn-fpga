@@ -1,0 +1,80 @@
+{
+  "status": "verified_core_export_not_board_ready",
+  "source_checkpoint": "C:\\AICAR\\ULT_CNN\\user_runs\\crossing_fix_20261011\\best_model.pt",
+  "source_checkpoint_sha256": "39eac826632a58d950e42ebe957884fec1a8313f7eb1873c95831eff1e62d609",
+  "quantization": {
+    "historical_test": {
+      "images": 2406,
+      "raw_class_matches": 2406,
+      "final_class_matches": 2406,
+      "activate_matches": 2406,
+      "keep_matches": 2406,
+      "max_context_logit_error": 0.04155731201171875,
+      "float_accuracy": 0.8541147132169576,
+      "integer_accuracy": 0.8541147132169576
+    },
+    "augmented_context_test": {
+      "images": 560,
+      "raw_class_matches": 560,
+      "final_class_matches": 560,
+      "activate_matches": 560,
+      "keep_matches": 560,
+      "max_context_logit_error": 0.019279003143310547
+    },
+    "fresh_context_test": {
+      "images": 560,
+      "raw_class_matches": 560,
+      "final_class_matches": 560,
+      "activate_matches": 560,
+      "keep_matches": 560,
+      "max_context_logit_error": 0.015422523021697998
+    },
+    "normal_route_replay": {
+      "images": 990,
+      "raw_class_matches": 989,
+      "final_class_matches": 990,
+      "activate_matches": 990,
+      "keep_matches": 990,
+      "max_context_logit_error": 0.01952362060546875
+    },
+    "actual_controller_jpeg_replay": {
+      "images": 53,
+      "raw_class_matches": 53,
+      "final_class_matches": 53,
+      "activate_matches": 53,
+      "keep_matches": 53,
+      "max_context_logit_error": 0.01734447479248047
+    }
+  },
+  "saturated_values": 0,
+  "rtl_vectors": 13,
+  "rtl_frames": 26,
+  "inference_cycles_excluding_input": 632216,
+  "core_time_at_proposed_20mhz_ms": 31.6108,
+  "hardware": {
+    "status": "core_synthesis_completed",
+    "device": "GW2AR-LV18QN88C8/I7",
+    "rtl_sha256": "cdd615a5a7f0059d29589c5b7c3d558b075c85bb4bc8f1d53ed1650e43089627",
+    "resources": {
+      "Logic": "2077(1498 LUT, 531 ALU, 8 RAM16) / 20736",
+      "Register": "220 / 15750",
+      "BSRAM": "40 / 46"
+    },
+    "synthesis_fmax_estimate_mhz": 25.325,
+    "tool_default_constraint_mhz": 100,
+    "timing_closed": false,
+    "place_and_route_completed": false,
+    "bitstream_generated": false,
+    "report": "C:\\AICAR\\ULT_CNN\\fpga_release_20261025\\impl\\gwsynthesis\\ult_context_core_syn.rpt.html",
+    "limitation": "Pre-layout core estimate. Default 100MHz constraint is not met. A 20MHz core clock is a proposal requiring PLL and full-design routed timing validation."
+  },
+  "packet_bytes": 36,
+  "protocol_version": 2,
+  "board_programmed": false,
+  "remaining": [
+    "Camera B initialization, capture, CDC and matching dual-view preprocessing.",
+    "UART physical transmitter, core/packet integration and actual RPi serial test.",
+    "20MHz PLL/clock selection, pins, full-design routing/timing and board playback.",
+    "Native integer-model closed-loop and real-camera validation."
+  ]
+}

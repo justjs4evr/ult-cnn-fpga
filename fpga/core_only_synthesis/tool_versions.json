@@ -1,0 +1,7 @@
+{
+  "iverilog": "Icarus Verilog version 12.0 (devel) (s20150603-1539-g2693dd32b)",
+  "distributor": "https://www.bleyer.org/icarus/",
+  "upstream_documentation": "https://steveicarus.github.io/iverilog/",
+  "installer_sha256": "a614057374dfaed5da0fe454cdeb410e54981fd85dbd28bd472f4ccb765deb84",
+  "gowin_executable": "C:\\Gowin\\IDE\\bin\\gw_sh.exe"
+}
